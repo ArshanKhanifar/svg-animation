@@ -1,0 +1,192 @@
+<svg id="stars_symbols" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 5032.76 3705.68">
+	<defs>
+		<style>.cls-1{fill:url(#radial-gradient);}.radial_gradient_02{fill:url(#radial-gradient-2);}.radial_gradient_03{fill:url(#radial-gradient-3);}.radial_gradient_04{fill:url(#radial-gradient-4);}.cls-2{fill:#fff;}
+		</style>
+		<radialGradient id="radial-gradient" cx="12.55" cy="12.55" r="12.55" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="radial-gradient-2" cx="12.55" cy="12.55" r="12.55" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="0.1" stop-color="#eee" stop-opacity="0.93"/>
+<stop offset="0.3" stop-color="#c2c2c2" stop-opacity="0.76"/>
+<stop offset="0.57" stop-color="#7a7a7a" stop-opacity="0.48"/>
+<stop offset="0.91" stop-color="#191919" stop-opacity="0.1"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="radial-gradient-3" cx="12.55" cy="12.55" r="12.55" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="0.01" stop-color="#fbfbfb" stop-opacity="0.98"/>
+<stop offset="0.17" stop-color="#b9b9b9" stop-opacity="0.73"/>
+<stop offset="0.34" stop-color="#818181" stop-opacity="0.51"/>
+<stop offset="0.49" stop-color="#535353" stop-opacity="0.32"/>
+<stop offset="0.64" stop-color="#2f2f2f" stop-opacity="0.18"/>
+<stop offset="0.78" stop-color="#151515" stop-opacity="0.08"/>
+<stop offset="0.9" stop-color="#050505" stop-opacity="0.02"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="radial-gradient-4" cx="12.55" cy="12.55" r="12.55" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="0.09" stop-color="#f6f6f6" stop-opacity="0.97"/>
+<stop offset="0.22" stop-color="#dfdfdf" stop-opacity="0.87"/>
+<stop offset="0.39" stop-color="#b9b9b9" stop-opacity="0.72"/>
+<stop offset="0.59" stop-color="#848484" stop-opacity="0.52"/>
+<stop offset="0.81" stop-color="#414141" stop-opacity="0.25"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<symbol id="star_twinkling" data-name="star_twinkling" viewBox="0 0 25.09 25.09">
+	<circle class="radial_gradient_04" cx="12.55" cy="12.55" r="12.55"/>
+</symbol>
+</defs>
+<title>stars_clouds</title>
+<g id="star_group">
+	<g id="star_group_twinkling">
+	<use width="25.09" height="25.09" transform="translate(1860.54 1751.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2037.54 1710.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2214.54 1846.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2463.54 1745.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2577.54 1652.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2815.54 1710.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2917.54 1805.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2986.54 1567.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2680.54 1423.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2441.54 1446.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2275.54 1398.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2034.54 1437.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1846.54 1419.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1629.54 1634.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1804.54 1861.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1754.54 2019.49)" xlink:href="#star_twinkling"/>
+	</g>
+	<g id="star_group_03">
+	<use width="25.09" height="25.09" transform="translate(2494.54 1578.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2655.54 1642.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2762.54 1895.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2897.54 2113.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3191.54 2003.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3191.54 1826.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2869.54 1783.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2658.54 1919.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2569.54 1918.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2722.54 1754.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2853.54 1504.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3040.54 1401.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3307.54 1456.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3370.54 1591.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3204.54 1791.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3173.54 2071.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3247.54 2152.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3426.54 2004.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3268.54 1852.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2959.54 1952.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2685.54 1998.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2433.54 2048.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2191.54 2126.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1935.54 2160.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1847.54 2253.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1727.54 2121.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1694.54 1897.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1660.54 1706.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1738.54 1501.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1765.54 1346.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1882.54 1344.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1831.54 1499.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2031.54 1591.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2173.54 1507.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2255.54 1549.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2005.54 1731.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1986.54 1905.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2385.54 1839.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2620.54 1695.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2408.54 1481.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2255.54 1354.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2355.54 1662.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1986.54 1995.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2161.54 1859.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2219.54 1961.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2294.54 2032.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2448.54 1822.49)" xlink:href="#star_twinkling"/>
+	</g>
+	<g id="star_group_02">
+	<use width="25.09" height="25.09" transform="translate(2559.54 1340.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2853.54 1328.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3091.54 1335.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3013.54 1452.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2822.54 1649.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3123.54 1706.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3212.54 1863.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3032.54 2043.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2905.54 2189.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2953.54 2269.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2624.54 2128.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2469.54 2007.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2199.54 2049.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2142.54 2136.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2258.54 2210.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2576.54 2168.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2754.54 2124.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2916.54 2206.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3055.54 2168.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3152.54 1936.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3096.54 1709.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3286.54 1437.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3464.54 1411.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3445.54 1666.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3461.54 1975.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3330.54 2039.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3244.54 1757.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2781.54 1553.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2201.54 1460.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1950.54 1425.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1818.54 1349.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1700.54 1368.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1611.54 1372.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1569.54 1511.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1588.54 1779.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1542.54 1996.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1588.54 2183.49)" xlink:href="#star_twinkling"/>
+	</g>
+	<g id="star_group_01">
+	<use width="25.09" height="25.09" transform="translate(1632.54 2333.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1850.54 2166.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2008.54 2140.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1994.54 2294.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2076.54 2352.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1957.54 2132.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1624.54 2013.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1638.54 1892.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1817.54 1787.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2123.54 1856.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2394.54 1811.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2428.54 1702.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2400.54 1585.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2669.54 1601.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2809.54 1743.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3152.54 1793.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(1863.54 1600.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2266.54 1677.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2544.54 1613.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(2850.54 1599.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3147.54 1627.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3262.54 1659.49)" xlink:href="#star_twinkling"/>
+	<use width="25.09" height="25.09" transform="translate(3317.54 1590.49)" xlink:href="#star_twinkling"/>
+	</g>
+</g>
+<g id="cloud_pattern" data-name="cloud pattern">
+<path class="cls-2" d="M-83.5,962.44C-92.58,856.18-56,746.28,13.36,671.66s170-112.45,266.32-100.1c39.74,5.1,78.4,18.19,118.23,22.42C563.05,611.53,705.35,479.62,850.61,391.4c320.5-194.64,716-190.32,1038.88-380.08C1964-32.46,2035.91-87,2119-103.65c59.32-11.84,122.56-3.82,178.17-29.44,53.11-24.47,97.81-78.75,155.38-77.31-26.85,37.87-75.57,43.82-116.41,60.77-71,29.47-122.9,96.54-187,141.22-77.71,54.18-170.5,73.72-259.88,97.67-233,62.43-457.82,161.65-665.46,293.66-52.75,33.54-107.1,70.15-167.9,74.47-40.36,2.87-80.83-8.9-121.1-4.74-70.59,7.28-128.59,61.08-188.24,103.25-165.89,117.26-368.83,153.76-542.26,257C138.25,852.19,67.19,902.94-5.84,883.55" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-91,1287.14c44.93-145.85,156.79-263.63,289.66-305C261,962.75,327,959.27,388.15,935.62c78.94-30.52,145.25-92.76,222.92-127.11,75.85-33.54,161-39.81,232.12-84.43,55.72-34.95,101.41-92.56,163.47-109.51,26.11-7.13,53.59-6.47,79.52-14.38,78.62-24,124.3-118.85,199.29-154.5,31.18-14.82,65.52-18.44,99-23.92,153.24-25.05,298.19-91.77,441.32-157.93l820.6-379.26-302.3,343.24c-18.13,20.59-37.14,41.81-61.49,51.47-27.92,11.08-58.62,5.35-88.21,7-148.91,8.29-240.55,193.42-381.92,246.4-86.79,32.53-184,11.7-271,43.53C1452.3,608.88,1384,693.17,1295,726.59c-86.71,32.55-186.05,14.07-267.81,59.95-94.24,52.89-140.26,177-228.53,241.5-106.38,77.71-246,52.07-370.6,79.74-166.94,37.06-308.75,171.51-477.53,196.07-10.34-40.89-7.5-85.78,7.89-124.63" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-57.84,1571.74c-36.65-53.25,9.78-129.23,69.36-154.31s127.18-19.2,190.7-31.17c179-33.71,299.68-199.8,460.52-285.19,48.72-25.87,101-44.19,151.55-66.3,79.66-34.84,154.84-79,232.52-118C1217.7,830.81,1399.86,770,1580.67,707.67c312.47-107.79,632.57-227,872.44-454.44,61.61-58.42,117.69-123.78,188.34-170.87S2802.81,8.29,2882.71,37c-9.89,122.66-127.41,207.26-241.32,253.82s-241,76.5-327,164.48c-42.53,43.49-74.1,100.41-128.25,128.11-31.38,16.05-67.28,20.49-100.53,32.18-84.17,29.6-146.66,103.66-230.38,134.49-57.6,21.21-121.59,20.52-178.78,42.81-70.63,27.53-123.61,87-189.21,125-55.07,31.88-117.62,47.82-177.54,69.25-85,30.4-165.48,72.17-245.62,113.8-75.82,39.39-151.85,78.9-222.48,127-58.72,40-114.52,86.25-181,111.26-56.82,21.38-118.8,26.1-175.73,47.17C439.7,1403,399,1429.55,357.31,1453.74a1404.46,1404.46,0,0,1-567.39,182.79" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M723.28,1408.32c160.8-73.9,310.56-169.43,459.45-265.09,44.38-28.52,89-57.23,137.74-77.49,60.11-25,125.21-36.63,184.8-62.86C1577,971.32,1637.79,920,1703.14,876.75a989.3,989.3,0,0,1,380.77-149.94c63.76-10.69,132.19-16.52,183.43-56,46-35.4,70.4-92.45,113.25-131.61C2447,478.57,2544.09,470.81,2631,447.8,2877.11,382.68,3066.69,181,3308.33,101c-48.11,30.09-83.1,80.39-94.59,136-5.32,25.74-5.9,52.72-15.83,77.06-22.58,55.33-85,80.89-141.18,101.36q-334.22,121.88-658.56,268.88c-163.18,74-324.77,152.92-474.34,251.54-124.65,82.19-243.14,179.11-384.9,226-55.65,18.4-113.85,28.65-168.83,49-64.84,24-123.69,61.34-183.35,96.25-155,90.73-318.39,166.22-481.46,241.55l-201.08,92.9c-59.52,27.5-161.23,83.48-229.55,68-96.52-21.8,7.68-91.28,42.83-113C444.78,1517.86,588,1470.51,723.28,1408.32Z" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M1274.22,1328.56c142.4-36.73,296.43-60.62,407.43-157.08,48.34-42,86.66-96.56,142.39-128.12,63.24-35.82,140.32-37.16,207.51-64.88,59.15-24.4,107.9-68,161.2-103.42C2430,717.44,2755.31,723.23,2972.83,539.31c27.05-22.88,52.26-48.59,83.31-65.64s70.29-24.25,101.72-7.89A2320,2320,0,0,1,2621.2,746.16c-120.74,44.13-247,79.07-354,150.18-44.78,29.74-85.48,65.38-130.85,94.22-86.54,55-186.79,83.38-282.37,120.53-204.26,79.4-389.7,200.3-567,329.09-75.48,54.83-149.85,111.28-227.5,163a2266.23,2266.23,0,0,1-513.17,254.62c72.24-25,148.72-98.46,207.51-146.07,59-47.82,118.57-97.84,165.56-157.87C1014.26,1432.57,1124.77,1367.12,1274.22,1328.56Z" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M1222.81,1505.09c133.76-68.69,280.85-113.15,403.45-200.22,69.75-49.54,129.94-111.82,201.33-159,59.81-39.5,126.27-67.59,192.31-95.44L2312.59,927,3147.1,574.92c-55,40.52-87.73,105.91-143.34,145.53-32.32,23-70.53,36-108,49C2563.47,884,2236,1020.73,1944.07,1216.49c-20.35,13.65-41,27.8-64.63,34.3-31.93,8.78-66.66,2.83-98.27,12.69-23.21,7.24-42.95,22.44-62.29,37.17a3723.9,3723.9,0,0,1-385.53,257.24q-101.25,58.81-206.06,111.19c-34,17-163.73,63.31-103.46-18.61C1070.26,1587.37,1154.67,1540.08,1222.81,1505.09Z" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M1105,1846a62.23,62.23,0,0,0-20,20" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M1016.61,1811a1643,1643,0,0,1,513-360.55c133.06-59.43,275.2-101.7,396.41-182.6,88.58-59.12,163.4-137.28,253.21-194.51C2344.68,967.91,2546.41,941.57,2734,884.08c261.34-80.1,498.5-222.42,732.69-363.39-153.62,207.56-315.4,422.21-545,540.28-133.83,68.8-283.51,100.66-421.5,160.68-306.86,133.46-543.48,400.09-856.24,519.08-181,68.87-379.19,84.72-558.75,157.33a943.36,943.36,0,0,0-267.37,164.62c-19.65-10.17-20.44-39.94-7.73-58s33.92-27.8,53.48-38.14c107.27-56.74,190.34-157.62,225.44-273.78" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M2010.05,1673.18c63-127.22,155-243.41,277.51-315.22,101.91-59.75,219.25-86.1,332.64-119.23A2689.89,2689.89,0,0,0,3279,945.45c-45.6,105.3-102.33,209.23-189.87,283.42-119.62,101.38-280.68,134.9-423.47,199.68C2475.14,1515,2317,1657.47,2150.36,1784c-67.93,51.57-138.05,101-214.59,138.59-47.93,23.57-98,42.36-147,63.74-133.43,58.3-257.55,135.6-381.13,212.6l-461.8,287.76c-12.45-46.94,22.59-92.27,56.95-126.6,293.86-293.63,704.92-440.42,1020.78-710.24,28.6-24.43,58.41-53.88,60.5-91.44" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-1501.62-243.56c-8.31-88.37,25.2-179.78,88.66-241.84s155.59-93.53,243.76-83.25c36.37,4.24,71.76,15.13,108.21,18.65,151.15,14.6,281.38-95.11,414.33-168.48C-353.33-880.38,8.62-876.79,304.17-1034.6c68.2-36.42,134-81.82,210.09-95.62,54.29-9.85,112.17-3.18,163.07-24.48,48.61-20.35,89.52-65.5,142.21-64.3-24.57,31.5-69.17,36.44-106.54,50.54C648-1144,600.51-1088.17,541.85-1051,470.72-1006,385.8-989.7,304-969.78A2313.76,2313.76,0,0,0-305.07-725.54c-48.28,27.89-98,58.35-153.67,61.94-36.94,2.38-74-7.4-110.84-3.95-64.61,6.06-117.69,50.8-172.29,85.87C-893.7-484.15-1079.44-453.8-1238.18-368c-60.48,32.7-125.52,74.91-192.36,58.78" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-1447,71.79c42.12-131.41,147-237.53,271.57-274.79,58.46-17.49,120.3-20.62,177.66-41.93,74-27.5,136.18-83.57,209-114.52,71.11-30.22,150.93-35.87,217.63-76.07,52.24-31.49,95.08-83.4,153.26-98.66,24.48-6.42,50.24-5.83,74.55-13,73.71-21.62,116.54-107.08,186.85-139.2,29.23-13.35,61.42-16.61,92.85-21.55C80-730.47,215.94-790.58,350.14-850.18l769.35-341.71L836.07-882.63c-17,18.55-34.82,37.67-57.65,46.37-26.18,10-55,4.82-82.7,6.3-139.61,7.47-225.53,174.27-358.07,222-81.37,29.31-172.48,10.54-254,39.22C-0.08-539.3-64.09-463.36-147.57-433.25c-81.3,29.33-174.43,12.67-251.08,54C-487-331.59-530.15-219.75-612.91-161.65c-99.74,70-230.61,46.92-347.46,71.85-156.52,33.39-289.47,154.53-447.71,176.66a179,179,0,0,1,7.4-112.29" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-1413.84,354.74c-36.65-53.25,9.78-129.23,69.36-154.31s127.18-19.2,190.7-31.17c179-33.71,299.68-199.8,460.52-285.19,48.72-25.87,101-44.19,151.55-66.3,79.66-34.84,154.84-79,232.52-118C-138.3-386.19,43.86-447,224.67-509.33c312.47-107.79,632.57-227,872.44-454.44,61.61-58.42,117.69-123.78,188.34-170.87s161.35-74.07,241.26-45.37c-9.89,122.66-127.41,207.26-241.32,253.82s-241,76.5-327,164.48C915.87-718.22,884.3-661.3,830.15-633.6c-31.38,16.05-67.28,20.49-100.53,32.18C645.45-571.82,583-497.76,499.23-466.92c-57.6,21.21-121.59,20.52-178.78,42.81-70.63,27.53-123.61,87-189.21,125C76.17-267.24,13.63-251.3-46.29-229.88c-85,30.4-165.48,72.17-245.62,113.8-75.82,39.39-151.85,78.9-222.48,127-58.72,40-114.52,86.25-181,111.26-56.82,21.38-118.8,26.1-175.73,47.17C-916.3,186-957,212.55-998.69,236.74a1404.46,1404.46,0,0,1-567.39,182.79" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-632.72,191.32c160.8-73.9,310.56-169.43,459.45-265.09,44.38-28.52,89-57.23,137.74-77.49,60.11-25,125.21-36.63,184.8-62.86C221-245.68,281.79-297,347.14-340.25A989.3,989.3,0,0,1,727.91-490.18c63.76-10.69,132.19-16.52,183.43-56,46-35.4,70.4-92.45,113.25-131.61C1091-738.43,1188.09-746.19,1275-769.2,1521.11-834.32,1710.69-1036,1952.33-1116c-48.11,30.09-83.1,80.39-94.59,136-5.32,25.74-5.9,52.72-15.83,77.06-22.58,55.33-85,80.89-141.18,101.36q-334.22,121.88-658.56,268.88C879-458.81,717.41-379.86,567.84-281.24,443.19-199,324.7-102.13,182.94-55.26,127.29-36.86,69.1-26.61,14.11-6.29-50.72,17.67-109.57,55-169.23,90c-155,90.73-318.39,166.22-481.46,241.55l-201.08,92.9c-59.52,27.5-161.23,83.48-229.55,68-96.52-21.8,7.68-91.28,42.83-113C-911.22,300.86-768,253.51-632.72,191.32Z" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-81.78,111.56C60.61,74.83,214.64,50.94,325.65-45.51,374-87.52,412.31-142.07,468-173.63c63.24-35.82,140.32-37.16,207.51-64.88,59.15-24.4,107.9-68,161.2-103.42C1074-499.56,1399.31-493.77,1616.83-677.69c27.05-22.88,52.26-48.59,83.31-65.64s70.29-24.25,101.72-7.89A2320,2320,0,0,1,1265.2-470.84c-120.74,44.13-247,79.07-354,150.18-44.78,29.74-85.48,65.38-130.85,94.22-86.54,55-186.79,83.38-282.37,120.53-204.26,79.4-389.7,200.3-567,329.09-75.48,54.83-149.85,111.28-227.5,163A2266.23,2266.23,0,0,1-809.74,640.79c72.24-25,148.72-98.46,207.51-146.07,59-47.82,118.57-97.84,165.56-157.87C-341.74,215.57-231.23,150.12-81.78,111.56Z" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-251,629a62.23,62.23,0,0,0-20,20" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M-478.39,620a1643,1643,0,0,1,513-360.55C167.67,200,309.81,157.75,431,76.85,519.6,17.73,594.42-60.43,684.24-117.66,849.68-223.09,1051.41-249.43,1239-306.92c261.34-80.1,498.5-222.42,732.69-363.39-153.62,207.56-315.4,422.21-545,540.28-133.83,68.8-283.51,100.66-421.5,160.68C698.25,164.12,461.64,430.75,148.88,549.74c-181,68.87-379.19,84.72-558.75,157.33A943.36,943.36,0,0,0-677.25,871.68c-19.65-10.17-20.44-39.94-7.73-58s33.92-27.8,53.48-38.14c107.27-56.74,190.34-157.62,225.44-273.78" transform="translate(1566.09 1219.03)"/>
+<path class="cls-2" d="M717.36,395.7C784.14,259,881.58,134.19,1011.34,57,1119.3-7.15,1243.6-35.46,1363.72-71A2829.9,2829.9,0,0,0,2061.6-386.13C2013.3-273,1953.2-161.34,1860.47-81.64,1733.74,27.27,1563.13,63.28,1411.86,132.88,1210.06,225.72,1042.5,378.82,866,514.71c-72,55.4-146.25,108.47-227.32,148.9C587.9,688.93,534.82,709.11,483,732.09,341.62,794.73,210.13,877.77,79.22,960.5L-410,1269.65c-13.19-50.43,23.94-99.13,60.33-136,311.3-315.46,746.75-473.17,1081.36-763,30.3-26.25,61.87-57.88,64.1-98.23" transform="translate(1566.09 1219.03)"/></g></svg>
