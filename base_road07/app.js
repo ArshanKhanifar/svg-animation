@@ -13,7 +13,7 @@ function loadStuff(){
 	})
 	s.selectAll('.cls-10').attr({
 		fillOpacity:0,
-		stroke:'#333',					// Wires
+		stroke:'#333',								// Wires
 		strokeMiterlimit:'10',
 		strokeWidth:'2px'					
 	},0);
@@ -37,6 +37,21 @@ setTimeout(slide('#skyscrapers_middle rect',0,300,0),0);
 setTimeout(slide('#skyscrapers_back rect',0,300,0),0);
 setTimeout(fadeStroke('#wires_right path',0,0),0);
 setTimeout(fadeStroke('#wires_left path',0,0),0);
+
+//	adjusting constellations
+
+setTimeout(slide('#constellations',650,0,0),0);
+setTimeout(fadeStroke('.constellation1,.constellation2',0,0),0);
+
+// adjusting Tree Data
+
+setTimeout(slide('#treeData_x5F_1st_x5F_row',485,85,0),0);
+
+// adjusting the Road Data
+
+setTimeout(slide('#data_x5F_roadStrip',485,90,0),0);
+
+
 
 function Translate(x,y){
 	return 'matrix(1,0,0,1,'+ x +',' + y + ')';
@@ -134,7 +149,7 @@ setTimeout(slide('#cloud_pattern',900,900,4000),shift(5800,0));
 setTimeout(fadeFill('#cloud_pattern',0.3,1000),shift(3900,0));
 setTimeout(fadeFill('#cloud_pattern',0,400),shift(4900,0));
 
-// appearance of stars : 5000- 
+// appearance of stars : 5000-7000
 
 var a = 0;
 
@@ -145,10 +160,21 @@ setTimeout(function(){s.selectAll('radialGradient stop')[6].animate({stopOpacity
 setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:1},500)},1000)},shift(6000,a));
 setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:0},500)},1000)},shift(6500,a));
 
+//appearance of dem constellations : 7000-
 
-function roadBackgroundFadeFillIn(){
-	s.select('#road rect').animate({
-		fillOpacity:0,
-	},0);
-}
+setTimeout(function(){s.selectAll('radialGradient stop')[2].animate({stopOpacity:0.1},500)},shift(7000,a));
+setTimeout(function(){s.selectAll('radialGradient stop')[4].animate({stopOpacity:0.1},500)},shift(7000,a));
+setTimeout(function(){s.selectAll('radialGradient stop')[6].animate({stopOpacity:0.1},500)},shift(7000,a));
+
+setTimeout(function(){s.selectAll('radialGradient stop')[8].animate({stopOpacity:1},500)},shift(7500,a));
+setTimeout(fadeStroke('.constellation1,.constellation2',1,500),shift(7800,0));
+
+
+
+
+
+
+
+
+
 

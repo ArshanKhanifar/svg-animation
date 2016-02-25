@@ -1,0 +1,128 @@
+<svg id="Constallations" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1523.09 1172.09"><defs>
+	<style>
+		.radial_gradient_02{fill:url(#radial-gradient);} 
+		.constellation1,.constellation2{fill:none;stroke-miterlimit:10;}
+		.constellation1{stroke:#fff;}
+		.constellation2{stroke:#f2f2f2;}
+	</style>
+	<radialGradient id="radial-gradient" cx="12.55" cy="12.55" r="12.55" gradientUnits="userSpaceOnUse">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset="0.1" stop-color="#eee" stop-opacity="0.93"/>
+		<stop offset="0.3" stop-color="#c2c2c2" stop-opacity="0.76"/>
+		<stop offset="0.57" stop-color="#7a7a7a" stop-opacity="0.48"/>
+		<stop offset="0.91" stop-color="#191919" stop-opacity="0.1"/>
+		<stop offset="1" stop-opacity="0"/>
+	</radialGradient>
+	<symbol id="constellationSymbol" data-name="star_02" viewBox="0 0 25.09 25.09"><circle class="radial_gradient_02" cx="12.55" cy="12.55" r="12.55"/></symbol></defs><title>constillations</title>
+	<g id="Perseus">
+		<g id="perseus_paths">
+			<polyline class="constellation1" points="16.58 141.21 46.91 102.59 93.58 121.9 149.57 159.38 245.23 175.29 261.56 113.95 214.9 16.26"/>
+			<polyline class="constellation1" points="245.23 175.29 261.56 254.8 282.56 302.51 139.07 420.65"/>
+		</g>
+		<use width="25.09" height="25.09" transform="translate(126 410)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(271 292)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(233 165)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(253 99)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(205 0)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(139 148)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(83 108)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(33 86)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(0 133)" xlink:href="#constellationSymbol"/>
+	</g>
+	<g id="camelopardalis">
+		<polyline id="camelo_path" class="constellation1" points="385.22 279.79 539.21 388.84 569.54 279.79 550.87 175.29 487.88 84.41"/>
+		<use width="25.09" height="25.09" transform="translate(371 267)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(527 380)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(557 267)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(541 161)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(475 69)" xlink:href="#constellationSymbol"/>
+	</g>
+	<g id="cassiopeia">
+		<polyline id="cassiopeia_path" class="constellation1" points="254.56 647.84 210.82 587.25 271.67 553.93 271.67 497.89 344.78 460.03"/>
+		<use width="25.09" height="25.09" transform="translate(243 638)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(195 575)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(260 540)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(259 482)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(335 443)" xlink:href="#constellationSymbol"/>
+	</g>
+	<g id="cepheus">
+		<g id="cepheus_path">
+			<path class="constellation1" d="M536,876.67v31.81l20.22-7.57,113.55,25.75s48.22,45.44,46.66,50,34.22,0,34.22,0" transform="translate(-225.45 -33.45)"/>
+			<path class="constellation1" d="M679.11,927.66c4.67-4,65.33-97.94,65.33-97.94l21.78-160.55L623.12,781.25,556.23,900.9" transform="translate(-225.45 -33.45)"/>
+		</g>
+		<use width="25.09" height="25.09" transform="translate(293 825)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(291 867)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(321 855)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(384 731)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(529 621)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(510 782)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(440 882)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(478 935)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(521 934)" xlink:href="#constellationSymbol"/>
+	</g>
+	<g id="lacerta">
+		<path id="lacerta_path" class="constellation1" d="M274.7,1087.2c4.67-1.51,34.22-12.12,34.22-12.12L324,1001l68.87-9.18V960h28V935.74h37.33" transform="translate(-225.45 -33.45)"/>
+		<use width="25.09" height="25.09" transform="translate(32 1044)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(71 1031)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(82 955)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(156 951)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(148 912)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(188 915)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(182 880)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(234 880)" xlink:href="#constellationSymbol"/>
+	</g>
+	<g id="draco">
+		<path id="draco_path" class="constellation1" d="M1248.08,561.48v83.26l46.27,148.89-19.11,155.74-56.33,55.83-57.34-16.65L1065,962.11l-69.41-77.38-44.27-3.92L895,867.1,846.7,901.38l36.21,45.06L1017.72,1110l3,79.34s62.37-19.59,61.36-22.53-11.57-42.12-11.57-42.12L1024.76,1110" transform="translate(-225.45 -33.45)"/>
+		<use width="25.09" height="25.09" transform="translate(1010 511)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(1011 596)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(1059 743)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(1042 901)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(982 961)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(828 914)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(759 835)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(656 818)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(604 856)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(776 1064)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(780 1147)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(846 1124)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(832 1077)" xlink:href="#constellationSymbol"/>
+	</g>
+	<g id="ursa_minor">
+		<g id="ursa_pathElements">
+			<polyline class="constellation2" points="1098.6 306.89 1164.06 203.75 1142.64 84.41 1164.06 84.41"/>
+			<path class="constellation2" d="M1500.2,568.65c-3.57-3.48-64.27-114.55-64.27-114.55L1313.35,331.42l-132.11-78s70.22,103.14,67.84,103.14,107.71,133.27,107.71,133.27l93.43,126.32,10.71,85.76,2.38,71.85,64.27,78.81" transform="translate(-225.45 -33.45)"/>
+			<polyline class="constellation2" points="1378.29 498.11 1409.23 388.84 1403.28 219.98 1369.96 219.98"/>
+			<path class="constellation2" d="M1731.09,460.87c-9.84,5.79-135.68,78.81-135.68,78.81l-101.16,34.77-38.09,46.36" transform="translate(-225.45 -33.45)"/>
+			<path class="constellation2" d="M1437.12,466.67c-4.76-1.16-80.34,23.18-80.34,23.18" transform="translate(-225.45 -33.45)"/>
+		</g>
+		<g id="ursa_group">
+			<use width="25.09" height="25.09" transform="translate(1293 810)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1223 730)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1213 576)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1264 523)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1369 487)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1498 416)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1400 376)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1396 203)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1358 203)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1203 414)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1115 446)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1008 311)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(936 202)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1084 294)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1152 189)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1123 69)" xlink:href="#constellationSymbol"/>
+			<use width="25.09" height="25.09" transform="translate(1156 66)" xlink:href="#constellationSymbol"/>
+		</g>
+	</g>
+	<g id="dipper">
+		<polyline id="dipper_path" class="constellation2" points="708.77 592.68 730.9 647.84 771.14 703.36 836.52 732.75 911.97 732.75 911.97 780.75 833.5 772.91 836.52 737.65"/>
+		<use width="25.09" height="25.09" transform="translate(694 577)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(715 634)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(756 691)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(826 720)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(904 718)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(904 773)" xlink:href="#constellationSymbol"/>
+		<use width="25.09" height="25.09" transform="translate(821 768)" xlink:href="#constellationSymbol"/>
+	</g>
+</svg>
