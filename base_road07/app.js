@@ -31,10 +31,6 @@ loadStuff();
 setTimeout(changeViewBox("400 700 2012.7 1200",0),0);
 setTimeout(slide('#road-3',488.22,800.02,0),0);
 setTimeout(slide('#road rect',0,800.02,0),0);
-setTimeout(slide('#buildings2 rect',0,400,0),0);
-setTimeout(slide('#skyscrapers_front rect',0,300,0),0);
-setTimeout(slide('#skyscrapers_middle rect',0,300,0),0);
-setTimeout(slide('#skyscrapers_back rect',0,300,0),0);
 setTimeout(fadeStroke('#wires_right path,#wires_left path',0,0),0);
 
 //	adjusting constellations
@@ -45,35 +41,80 @@ setTimeout(fadeStroke('.constellation1,.constellation2',0,0),0);
 
 // adjusting the Road Data
 
-setTimeout(slide('#data_x5F_roadStrip',485,90,0),0);
-setTimeout(function(){s.selectAll('#strip line')[0].attr({x2:969,y2:1120.1})},0);
-setTimeout(changeScale('#numbers,#markers',0,0,969,1120,0),0);
 s.selectAll('#data_object').attr({display:'none'});
+setTimeout(slide('#data_object',-150,-600,0),0);
+
+
+// adjusting the buildings Data 
+
+
+// adjusting the skyscrapers Data
+
 
 
 // adjusting Tree Data
 
-setTimeout(slide('#treeData_x5F_1st_x5F_row',485,85,0),0);
-setTimeout(function(){s.selectAll('#treeData_x5F_1st_x5F_row polyline').animate({'stroke-dasharray':1980},0)},0);
-setTimeout(function(){s.selectAll('#treeData_x5F_1st_x5F_row polyline').animate({'stroke-dashoffset':1980},0)},0);
+setTimeout(slide('#treeData',485,85,0),0);
+setTimeout(function(){s.selectAll('#treeData polyline').animate({'stroke-dasharray':1980},0)},0);
+setTimeout(function(){s.selectAll('#treeData polyline').animate({'stroke-dashoffset':1980},0)},0);
 setTimeout(changeScale('#treeDataNumbers',1,0,969,1070,0),0);
-
 
 //adjusting the hydropoles Data
 
-setTimeout(slide('#data_x5F_hydroPoles',485,88,0),0);
-for (var i = 1; i < 7 ; i++){
-	s.selectAll('#_x30_'+i)[0].selectAll('line').attr({display:'none'});
-	s.selectAll('#numbers_'+i+'_').attr({display:'none'});
-}
-s.selectAll('#wire_x5F_left g,#wire_x5F_right g').attr({display:'none'});
+setTimeout(slide('#data_hydroPoles',485,88,0),0);
 s.selectAll('#hydroObject_x5F_right,#hydroObject_x5F_left').attr({display:'none'});
+setTimeout(function(){hydroPolesWiresOut(lengths,0)},0);
 
+
+
+function pwr(a, b) {
+  var c = 1;
+  for (i = 0; i < b; i++) {
+    c *= a;
+  }
+  return c;
+}
+
+function rand(){
+	return Math.floor(Math.random()*10);
+}
+
+function randGen(digits) {
+	var text='';
+	for(var i=0;i<digits;i++){
+		text = rand() + text;
+		if((i+1)%3==0 && i!==digits-1){
+			text = ',' + text;
+		}
+	}
+	return text;
+}
+
+
+function movingNumbers(selector,digits,tempo){
+	setInterval(function(){
+		s.selectAll(selector).forEach(function(element){
+			element.node.innerHTML = randGen(digits);
+		});
+	},tempo);
+}
 
 
 function Translate(x,y){
 	return 'matrix(1,0,0,1,'+ x +',' + y + ')';
 }
+
+function hide(selector){
+	return function(){
+		s.selectAll(selector).attr({display:'none'});
+	}
+}
+function show(selector){
+	return function(){
+		s.selectAll(selector).attr({display:'block'});
+	}
+}
+
 
 function fadeFill(selector,alpha,duration){
 	return function(){
@@ -120,42 +161,74 @@ function changeScale(selector,scaleValx,scaleValy,x,y,duration){
 	}
 }
 
+function setDasharray(selector,length,duration){
+	return function(){
+		s.selectAll(selector).animate({
+			'stroke-dasharray': length,
+		},duration);
+	}
+}
+
+function setDashoffset(selector,length,duration){
+	return function(){
+		s.selectAll(selector).animate({
+			'stroke-dashoffset': length,
+		},duration);
+	}
+}
+
+function doSetTimeout1(func,param1,delay){
+	setTimeout(function(){func(param1)},delay);
+}
+function doSetTimeout2(func,param1,param2,delay){
+	setTimeout(function(){func(param1,param2)},delay);
+}
+function doSetTimeout3(func,param1,param2,param3,delay){
+	setTimeout(function(){func(param1,param2,param3)},delay);
+}
+function doSetTimeout4(func,param1,param2,param3,param4,delay){
+	setTimeout(function(){func(param1,param2,param3,param4)},delay);
+}
+function doSetTimeout5(func,param1,param2,param3,param4,param5,delay){
+	setTimeout(function(){func(param1,param2,param3,param4,param5)},delay);
+}
+
 function shift(number,tobeAdded){
 	return number+tobeAdded;
 }
 
 function scale(scalex,scaley,x,y){
-
 	return "matrix("+scalex+", 0, 0,"+scaley+", "+ (x-scalex*x) +"," + (y-scaley*y) +")";
 }
 
-
-function hydroPowerDatahelper(selector,side,attr){
-	return s.selectAll(selector)[0].selectAll('line')[side].attr(attr) ;
-}
-function hydroPowerData(selector,side){
-	var x1 = hydroPowerDatahelper(selector,side,'x1');
-	var y1 = hydroPowerDatahelper(selector,side,'y1');
-	var x2 = hydroPowerDatahelper(selector,side,'x2');
-	var y2 = hydroPowerDatahelper(selector,side,'y2');
-	s.selectAll(selector)[0].selectAll('line')[side].attr({'x2':x1,'y2':y1}) ;
-	s.selectAll(selector)[0].selectAll('line').attr({display:"block"});
-	s.selectAll(selector)[0].selectAll('line')[side].animate({x2:x2,y2:y2},300) ;
-	s.selectAll('#numbers_'+selector.slice(6,7)+'_').attr({display:'block'});
-
-}
-function doSetTimeoutHydro(selector,side,delay){
-	setTimeout(function(){hydroPowerData(selector,side)},delay);
+// var wires_data_left_lengths = [55,90,135,230,634];
+var lengths = [55,90,135,230,634];
+function strokeDanceWireOut(index,length,duration){
+	s.selectAll('#hydroWires .wire' + index + ' path').animate({'stroke-dasharray':length},0);
+	s.selectAll('#hydroWires .wire' + index + ' path').animate({'stroke-dashoffset':-length},duration);
+	s.selectAll('#hydroWires .wire' + index + ' text').attr({'display':'none'});
 }
 
-function hydroWire(index){
-	s.selectAll('#wire_x5F_left g')[4-index].attr({display:'block'});
-	s.selectAll('#wire_x5F_right g')[4-index].attr({display:'block'});
+function strokeDanceWireIn(index,length,duration){
+	s.selectAll('#hydroWires .wire' + index + ' path').animate({'stroke-dasharray':length},0);
+	s.selectAll('#hydroWires .wire' + index + ' path').attr({'stroke-dashoffset':length});
+	s.selectAll('#hydroWires .wire' + index + ' path').animate({'stroke-dashoffset':0},duration);
+	s.selectAll('#hydroWires .wire' + index + ' text').attr({'display':'block'});
 }
-function doSettimeoutHydroWire(index,delay) {
-	setTimeout(function(){hydroWire(index)},delay);
 
+
+function hydroPolesWiresOut(lengths,duration){
+	for(var i=1;i<6;i++){
+		doSetTimeout3(strokeDanceWireOut,i,lengths[i-1],duration,(i-1)*duration);
+	}
 }
+function hydroPolesWiresIn(lengths,duration){
+	for(var i=1;i<6;i++){
+		doSetTimeout3(strokeDanceWireIn,i,lengths[i-1],duration,(i-1)*duration);
+	}
+}
+
+
 
 
 
@@ -169,27 +242,19 @@ setTimeout(fadeFill('#road rect',1,500),shift(100,step1));
 setTimeout(slide('#road rect',0,0,500),shift(100,step1));		
 
 var step2 = 600 ;
-var off2 = 600;
+var off2 = 0;
+
 //lane paint: 600-900
 //diff: 900
 
 setTimeout(fadeFill('#lane_paint_path',1,300),shift(0,step2));
-setTimeout(function(){s.selectAll('#strip line')[0].animate({x2:974,y2:1925},300)},shift(300,step2));
-setTimeout(changeScale('#numbers,#markers',1,1,969,1120,600),shift(300,step2));
 
 
 
 var step3 = 900 + off2;
-var off3 = 800; 
+var off3 = 0; 
 // Trees : 900-1800
 // diff: 900
-
-setTimeout(fadeFill('#_1st_row path',1,300),shift(0,step3));
-setTimeout(fadeFill('#_2nd_row path',1,300),shift(300,step3));
-setTimeout(fadeFill('#_3rd_row path',1,300),shift(600,step3));
-setTimeout(function(){s.selectAll('#treeData_x5F_1st_x5F_row polyline').animate({'stroke-dashoffset':0},500)},shift(900,step3));
-setTimeout(changeScale('#treeDataNumbers',1,1,969,1070,300),shift(1400,step3));
-setTimeout(function(){s.selectAll('#data_object').attr({display:'block'})},shift(1700,step3));
 
 
 
@@ -204,51 +269,43 @@ setTimeout(slide('#buildings2 rect',0,0,200),shift(200,step4));
 
 
 var step5 = 2200 + off2 + off3;
-var off5 = 2200;
+var off5 = 0;
+
 // Hydro Poles and their wires : 2200-2500
 //diff : 300
 
 setTimeout(fadeFill('#hydro_poles #left_side polygon,#hydro_poles #right_side polygon',1,300),shift(0,step5));
 setTimeout(fadeStroke('#wires_left path,#wires_right path',1,300),shift(0,step5));
-setTimeout(function(){
-	for (var i = 1; i < 7 ; i++){
-		doSetTimeoutHydro('#_x30_'+i,0,200*(i-1));
-		doSetTimeoutHydro('#_x30_'+i,1,200*(i-1));
-	}
-
-},shift(300,step5));
-setTimeout(function(){
-	for (var i = 0; i < 5 ; i++){
-		doSettimeoutHydroWire(i,i*200)
-	}
-
-},shift(1500,step5));
+setTimeout(function(){movingNumbers('#hydroWires text',9,160)},shift(300,step5));
 
 
 
-
-
+var off6=3500;
 var step6 = 2500 + off2 + off3 + off5;
 //sky scrapers : 2500-3100
 // diff: 600
 
+
 setTimeout(fadeFill('#skyscrapers_front rect',1,200),shift(0,step6));
 setTimeout(slide('#skyscrapers_front rect',0,0,200),shift(0,step6));
-setTimeout(fadeFill('#skyscrapers_middle rect',1,200),shift(200,step6));
+setTimeout(fadeFill('#skyscrapers_middle rect',1,200),shift(200,step6)); //themselves
 setTimeout(slide('#skyscrapers_middle rect',0,0,200),shift(200,step6));
 setTimeout(fadeFill('#skyscrapers_back rect',1,200),shift(400,step6));
 setTimeout(slide('#skyscrapers_back rect',0,0,200),shift(400,step6));
 
+setTimeout(function(){hydroPolesWiresIn(lengths,400)},shift(600,step6));
+setTimeout(function(){hydroPolesWiresOut(lengths,400)},shift(2100,step6));
 
 
-var step7 = 3100 + off2 + off3 + off5;
+var off7 = 0;
+var step7 = 3100 + off2 + off3 + off5 + off6;
 // change point of view : 3100-3600
 // diff : 500
 
 setTimeout(changeViewBox("300 0 2312.7 1370",500),shift(0,step7));
-setTimeout(slide('#data_object',0,-600,500),shift(0,step7));
+setTimeout(slide('#data_object',-150,-600,0),shift(0,step7));
 
-var step8 = 3600 + off2 + off3 + off5;
+var step8 = 3600 + off2 + off3 + off5 + off6 + off7;
 // sunset : 3600-5300
 // diff : 1700
 
@@ -261,7 +318,7 @@ setTimeout(fadeFill('#cloud_pattern',0.3,1000),shift(300,step8));
 setTimeout(fadeFill('#cloud_pattern',0,400),shift(1300,step8));
 
 
-var step9 = 5000 + off2 + off3 + off5;
+var step9 = 5000 + off2 + off3 + off5 + off6 + off7;
 // appearance of stars : 5000-7000
 // diff: 2000
 
@@ -273,7 +330,7 @@ setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[
 setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:0},500)},1000)},shift(1500,step9));
 
 
-var step10 = 7000 + off2 + off3 + off5;
+var step10 = 7000 + off2 + off3 + off5 + off6 + off7;
 //appearance of dem constellations : 7000-
 //diff : who cares? it's looking awesome! 
 
