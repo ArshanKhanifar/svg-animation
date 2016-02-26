@@ -28,10 +28,14 @@ loadStuff();
 
 // makin em dissappear 
 
-setTimeout(changeViewBox("400 700 2012.7 1200",0),0);
+setTimeout(changeViewBox("400 500 2012.7 1200",0),0);
 setTimeout(slide('#road-3',488.22,800.02,0),0);
 setTimeout(slide('#road rect',0,800.02,0),0);
 setTimeout(fadeStroke('#wires_right path,#wires_left path',0,0),0);
+
+//  adjusting buildings nd shit
+setTimeout(slide('#skyline',700,1210.02,0),0);
+setTimeout(hide('#skyline'),0);
 
 //	adjusting constellations
 
@@ -263,10 +267,14 @@ var step4 = 1800 + off2 + off3;
 // Buildings : 1800-2200
 //diff : 400
 
-setTimeout(fadeFill('#buildings1 rect',1,200),shift(0,step4));
-setTimeout(fadeFill('#buildings2 rect',1,200),shift(200,step4));
-setTimeout(slide('#buildings2 rect',0,0,200),shift(200,step4));
-
+setTimeout(show('#skyline'),shift(0,step4));
+for (var i=1;i<13;i++){
+	if(i<10){
+		setTimeout(slide('#skyline #group0'+i,0,-650,200),shift(100+i*100,step4));
+	} else{
+		setTimeout(slide('#skyline #group'+i,0,-650,200),shift(100 +i*100 ,step4));
+	}
+}
 
 var step5 = 2200 + off2 + off3;
 var off5 = 0;

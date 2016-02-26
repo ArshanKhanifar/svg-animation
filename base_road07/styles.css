@@ -68,6 +68,38 @@
 .cls-9{fill:#fff;}
 .cls-10{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:2px;}
 		*/
+.skyline_Tdot-1,
+.skyline_Tdot-10,
+.skyline_Tdot-11,
+.skyline_Tdot-9{fill:none;}
+.skyline_Tdot-2,
+.skyline_Tdot-3,
+.skyline_Tdot-4,
+.skyline_Tdot-5,
+.skyline_Tdot-6,
+.skyline_Tdot-7,
+.skyline_Tdot-8{fill:#fff;}
+.skyline_Tdot-2,
+.skyline_Tdot-4{opacity: 1;fill: #ABABAB;}
+.skyline_Tdot-10,
+.skyline_Tdot-11,
+.skyline_Tdot-4,
+.skyline_Tdot-5,
+.skyline_Tdot-6,
+.skyline_Tdot-7,
+.skyline_Tdot-8,
+.skyline_Tdot-9{stroke:#000;stroke-miterlimit:10;}
+.skyline_Tdot-4{stroke-width:0.25px;}
+.skyline_Tdot-5{stroke-width:5px;}
+.skyline_Tdot-6{stroke-width:2px;}
+.skyline_Tdot-7{stroke-width:3px;}
+.skyline_Tdot-11,
+.skyline_Tdot-8{stroke-width:4px;}
+.skyline_Tdot-10{stroke-width:6px;}
+.skyline_Tdot-12{clip-path:url(#clip-path);}
+.skyline_Tdot-13{clip-path:url(#clip-path-2);}
+.skyline_Tdot-14{clip-path:url(#clip-path-3);}
+.skyline_Tdot-15{clip-path:url(#clip-path-4);}
 
 svg { 
 	margin: auto;
