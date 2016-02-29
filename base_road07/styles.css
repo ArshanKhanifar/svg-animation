@@ -29,35 +29,6 @@
 .st19{font-size:2px;}
 .st20{letter-spacing:31;}
 .st21{letter-spacing:35;}
-.cls-001,
-.cls-0010,
-.cls-004,
-.cls-007{fill:none;}
-.cls-002,
-.cls-005,
-.cls-006,
-.cls-008,
-.cls-009{fill:blue;}
-.cls-002,
-.cls-003,
-.cls-004,
-.cls-007{stroke:blue;}
-.cls-0010,
-.cls-002,
-.cls-003,
-.cls-004,
-.cls-007{stroke-miterlimit:10;}
-.cls-003{fill:aqua;}
-.cls-004{stroke-width:2px;}
-.cls-005{font-size:24px;}
-.cls-005,
-.cls-006,
-.cls-008,
-.cls-009{font-family:Myriad Pro;}
-.cls-006{font-size:14px;}
-.cls-008{font-size:10px;}
-.cls-009{font-size:12px;}
-.cls-0010{stroke:aqua;}
 /*.cls-2{fill:#29abe2;}
 .cls-3{fill:#333;}
 .cls-4{fill:#666;}
@@ -80,7 +51,7 @@
 .skyline_Tdot-7,
 .skyline_Tdot-8{fill:#fff;}
 .skyline_Tdot-2,
-.skyline_Tdot-4{opacity: 1;fill: #ABABAB;}
+.skyline_Tdot-4{opacity: 1;fill: #969696;}
 .skyline_Tdot-10,
 .skyline_Tdot-11,
 .skyline_Tdot-4,
@@ -88,7 +59,7 @@
 .skyline_Tdot-6,
 .skyline_Tdot-7,
 .skyline_Tdot-8,
-.skyline_Tdot-9{stroke:#000;stroke-miterlimit:10;}
+.skyline_Tdot-9{stroke: #000000;stroke-miterlimit:10;}
 .skyline_Tdot-4{stroke-width:0.25px;}
 .skyline_Tdot-5{stroke-width:5px;}
 .skyline_Tdot-6{stroke-width:2px;}
@@ -100,6 +71,8 @@
 .skyline_Tdot-13{clip-path:url(#clip-path-2);}
 .skyline_Tdot-14{clip-path:url(#clip-path-3);}
 .skyline_Tdot-15{clip-path:url(#clip-path-4);}
+.roadDataMask{fill: #676767;}
+.roadDataBackground{fill:#00FFFF;}
 
 svg { 
 	margin: auto;
