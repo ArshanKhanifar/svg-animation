@@ -1,0 +1,25 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.75 264.35">
+	<defs>
+		<style>.Logo1{fill:#487e82;}.Logo2{fill:#14acb4;}.Logo3{fill:#f49c44;}.Logo4{fill:#9ad6d8;}.Logo5{fill:#0b5f63;}
+		</style>
+	</defs><title>logo</title>
+
+	<g id="logo">
+		<polygon class="Logo1" points="79.81 198.53 79.76 132.63 112.73 165.6 79.81 198.53"/>
+		<polygon class="Logo1" points="79.81 132.2 79.76 66.3 112.73 99.28 79.81 132.2"/>
+		<polygon class="Logo2" points="205.75 146.41 159.22 99.75 159.19 146.39 205.75 146.41"/>
+		<polygon class="Logo3" points="205.73 146.54 159.24 193.25 159.17 146.62 205.73 146.54"/>
+		<polygon class="Logo4" points="112.98 100.02 159.18 147.01 159.54 100.39 112.98 100.02"/>
+		<polygon class="Logo5" points="159.47 146.5 113.05 193.28 159.69 193.06 159.47 146.5"/>
+		<polygon class="Logo5" points="179.02 231.38 113.13 231.41 146.14 264.35 179.02 231.38"/>
+		<polygon class="Logo5" points="79.73 87.04 33.28 133.77 79.91 133.6 79.73 87.04"/>
+		<polygon class="Logo2" points="33.4 0.62 79.69 47.52 79.95 0.89 33.4 0.62"/>
+		<polygon class="Logo5" points="32.92 134.15 32.97 68.25 0 101.23 32.92 134.15"/>
+		<polygon class="Logo1" points="0.62 100.19 0.57 34.29 33.55 67.26 0.62 100.19"/>
+		<polygon class="Logo4" points="33.49 67.09 33.55 1.19 0.57 34.16 33.49 67.09"/>
+		<polygon class="Logo5" points="112.68 231.73 112.73 165.84 79.76 198.81 112.68 231.73"/>
+		<polygon class="Logo5" points="112.68 99.51 112.73 165.41 79.76 132.43 112.68 99.51"/>
+		<polygon class="Logo4" points="79.81 65.9 79.76 0 112.73 32.97 79.81 65.9"/>
+		<polygon class="Logo2" points="112.68 33.2 112.73 99.1 79.76 66.13 112.68 33.2"/>
+	</g>
+</svg>

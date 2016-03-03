@@ -39,7 +39,7 @@
 .cls-9{fill:#fff;}
 .cls-10{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:2px;}
 		*/
-.skyline_Tdot-1,
+/*.skyline_Tdot-1,
 .skyline_Tdot-10,
 .skyline_Tdot-11,
 .skyline_Tdot-9{fill:none;}
@@ -49,9 +49,10 @@
 .skyline_Tdot-5,
 .skyline_Tdot-6,
 .skyline_Tdot-7,
-.skyline_Tdot-8{fill:#fff;}
+.skyline_Tdot-8{fill: #FFFFFF;}
 .skyline_Tdot-2,
-.skyline_Tdot-4{opacity: 1;fill: #969696;}
+.skyline_Tdot-4{opacity: 1;fill: #989898;}*/
+
 .skyline_Tdot-10,
 .skyline_Tdot-11,
 .skyline_Tdot-4,
@@ -72,7 +73,52 @@
 .skyline_Tdot-14{clip-path:url(#clip-path-3);}
 .skyline_Tdot-15{clip-path:url(#clip-path-4);}
 .roadDataMask{fill: #676767;}
-.roadDataBackground{fill:#00FFFF;}
+
+.roadDataBranch{fill: none;stroke-miterlimit:10;}
+
+.data-constellations1,
+.data-constellations13{font-size:14px;}
+.data-constellations1,
+.data-constellations12{font-family:Myriad Pro;}
+.data-constellations2{letter-spacing:24px;}
+.data-constellations3{letter-spacing:14px;}
+.data-constellations4{letter-spacing:11px;}
+.data-constellations5{letter-spacing:25px;}
+.data-constellations6{letter-spacing:1px;}
+.data-constellations7{white-space:pre;}
+.data-constellations8{letter-spacing:-1px;}
+.data-constellations9{letter-spacing:10px;}
+.data-constellations10{letter-spacing:20px;}
+.data-constellations11{letter-spacing:23px;}
+.data-constellations12{font-size:18px;}
+.data-constellations14{letter-spacing:30px;}
+.data-constellations15{letter-spacing:6px;}
+.data-constellations16{letter-spacing:19px;}
+.data-constellations17{letter-spacing:-2px;}
+.data-constellations18{letter-spacing:7px;}
+.data-constellations19{letter-spacing:12px;}
+.data-constellations20{letter-spacing:17px;}
+.data-constellations21{letter-spacing:21px;}
+.data-constellations22{letter-spacing:18px;}
+.data-constellations23{letter-spacing:8px;}
+.data-constellations24{letter-spacing:26px;}
+.data-constellations25{letter-spacing:13px;}
+.data-constellations26{letter-spacing:4px;}
+.data-constellations27{letter-spacing:16px;}
+.data-constellations28{letter-spacing:5px;}
+.data-constellations29{letter-spacing:9px;}
+.data-constellations30{letter-spacing:15px;}
+.data-constellations31{letter-spacing:29px;}
+
+.polesWires1{fill:#ccc;}
+.polesWires2{fill:#999;}
+.polesWires3{fill:#4d4d4d;}
+.polesWires4{fill:#666;}
+.polesWires5{fill:#333;}
+.polesWires6{fill:gray;}
+.polesWires7{fill:none;stroke-miterlimit:10;stroke-width:2px;}
+
+
 
 svg { 
 	margin: auto;

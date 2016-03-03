@@ -31,11 +31,27 @@ loadStuff();
 setTimeout(changeViewBox("400 500 2012.7 1200",0),0);
 setTimeout(slide('#road-3',488.22,800.02,0),0);
 setTimeout(slide('#road rect',0,800.02,0),0);
-setTimeout(fadeStroke('#wires_right path,#wires_left path',0,0),0);
+slide('#wires-poles',225,240,100)();
+s.selectAll('#Poles_left use,#Poles_right use').forEach(function(element){element.attr('display','none')});
 
 //  adjusting buildings nd shit
+
 setTimeout(slide('#skyline',700,1210.02,0),0);
 setTimeout(hide('#skyline'),0);
+setTimeout(slide('#V-shape',548,240.02,0),0);
+setTimeout(slide('#window6,#window7',35,0,0),0);
+draw('#wires_left path,#wires_right path',0,false,true)();
+
+
+// adjusting buildings colors
+
+s.selectAll('.skyline_Tdot-2, .skyline_Tdot-3, .skyline_Tdot-4, .skyline_Tdot-5, .skyline_Tdot-6, .skyline_Tdot-7, .skyline_Tdot-8').forEach(function(element){
+	element.attr('fill','white');
+	})
+s.selectAll('.skyline_Tdot-2, .skyline_Tdot-4').forEach(function(element){
+	element.attr('fill','#989898');
+})
+
 
 //	adjusting constellations
 
@@ -43,11 +59,18 @@ setTimeout(slide('#constellations',650,0,0),0);
 setTimeout(fadeStroke('.constellation1,.constellation2',0,0),0);
 
 
+// 	adjusting constellations data
+
+setTimeout(slide('#dataConstellations',710,100,0),0);
+
+
 // adjusting the Road Data
 hide('#roadDataMask')();
-s.selectAll('#roadDataBackground path').animate({d:"M970,1420 970,1420 970.9,1420 970.9,1420"},0);
-setTimeout(slide('#roadDataMask',508,1239,0),0);
-
+s.selectAll('#roadDataBackground path').attr({d:"M68,1925 924,1177 1009.9,1178 1847,1926"});
+s.selectAll('#roadDataBackground').attr({fill:"#676767"});
+setTimeout(slide('#roadDataMask',508,1249,0),0);
+setTimeout(slide('#roadBranch1',1470,1262,0),0);
+setTimeout(slide('#roadBranch2',1348,1264,0),0);
 
 
 // adjusting the buildings Data 
@@ -60,15 +83,10 @@ setTimeout(slide('#roadDataMask',508,1239,0),0);
 // adjusting Tree Data
 
 setTimeout(slide('#treeData',485,85,0),0);
-setTimeout(function(){s.selectAll('#treeData polyline').animate({'stroke-dasharray':1980},0)},0);
-setTimeout(function(){s.selectAll('#treeData polyline').animate({'stroke-dashoffset':1980},0)},0);
 setTimeout(changeScale('#treeDataNumbers',1,0,969,1070,0),0);
 
 //adjusting the hydropoles Data
 
-setTimeout(slide('#data_hydroPoles',485,88,0),0);
-s.selectAll('#hydroObject_x5F_right,#hydroObject_x5F_left').attr({display:'none'});
-setTimeout(function(){hydroPolesWiresOut(0)},0);
 
 
 
@@ -80,21 +98,25 @@ function pwr(a, b) {
   return c;
 }
 
-function rand(){
-	return Math.floor(Math.random()*10);
+function rand(n){
+	return Math.floor(Math.random()*n);
 }
 
 function randGen(digits) {
 	var text='';
 	for(var i=0;i<digits;i++){
-		text = rand() + text;
+		text = rand(10) + text;
 		if((i+1)%3==0 && i!==digits-1){
 			text = ',' + text;
 		}
 	}
 	return text;
 }
-
+function randColorGen(){
+	var txt ='';
+	txt+='rgb(' + (100+rand(156)) + ',' + (100+rand(156) )+ ',' + (100+rand(156)) +')';
+	return txt;
+}
 
 function movingNumbers(selector,digits,tempo){
 	setInterval(function(){
@@ -103,7 +125,6 @@ function movingNumbers(selector,digits,tempo){
 		});
 	},tempo);
 }
-
 
 function Translate(x,y){
 	return 'matrix(1,0,0,1,'+ x +',' + y + ')';
@@ -202,7 +223,9 @@ function setTimeoutFixed() {
 	setTimeout(function(){func.apply(null,params)},delay);
 }
 
-function draw(selector,duration,reverse,out){
+function draw(selector,duration,reverse,out,color,easing){
+	if (color == undefined) { color = '#00FFFF'};
+	if (easing == undefined) { easing = mina.linear};
 	return function(){
 		var elements = s.selectAll(selector);
 		elements.forEach(function(element){
@@ -225,23 +248,83 @@ function draw(selector,duration,reverse,out){
 			element.attr({
 				'stroke-dasharray':length,
 				'stroke-dashoffset':offsetInit,
-				'stroke': '#00FFFF' 
+				'stroke': color 
 			});
-			element.animate({'stroke-dashoffset': offsetFinal }, duration);
+			element.animate({'stroke-dashoffset': offsetFinal }, duration,easing);
 		})	
 	}
 }
 
-function window1(){
-	for (var i = 1; i < 9 ; i++){
-		setTimeout(changeFill('#_'+i+'-2','#00FFFF',100),i*60);
+function showHydroPoles(){
+	var polesLeft = s.selectAll('#Poles_left use');
+	var nLeft = polesLeft.length;
+	for (var i = 0  ; i < nLeft ; i++){setTimeoutFixed(function(j){polesLeft[nLeft-j-1].attr('display','block');},i,100*i);
 	}
-	for (var i = 1; i < 9 ; i++){
-		setTimeout(changeFill('#_'+i+'-2','black',100),480+i*60);
+	var polesRight = s.selectAll('#Poles_right use');
+	var nRight = polesRight.length;
+	for (var i = 0  ; i < nRight ; i++){setTimeoutFixed(function(j){polesRight[nRight-j-1].attr('display','block');},i,100*i);
 	}
 }
 
-function window2(){
+
+
+
+function window1(duration){
+	var n = s.selectAll('#window7 path').length;
+	var interval = duration/n;
+	for (var i = 1; i <=n; i++){
+		setTimeout(changeFill('#window7 path:nth-of-type('+i+')','#00FFFF',interval),interval*i);
+	}
+		for (var i = 1; i <=n; i++){
+		setTimeout(changeFill('#window7 path:nth-of-type('+i+')','black',interval),n*interval+interval*i);
+	}
+}
+
+function window2(duration){
+	var n = s.selectAll('#window4 line').length;
+	var interval = duration/n;
+	for (var i = 1; i < n+1 ; i++){
+		setTimeout(changeStroke('#window4 line:nth-of-type('+(n+1-i)+')','#00FFFF'),i*interval);
+	}
+	for (var i = 1; i < n+1 ; i++){
+		setTimeout(changeStroke('#window4 line:nth-of-type('+(n+1-i)+')','#000000'),n*interval+i*interval);
+	}
+}
+
+function window3(duration){
+	var n = s.selectAll('#window6 rect').length;
+	var interval = duration/n;
+	for (var i = 1; i <=n; i++){
+		setTimeout(changeFill('#window6 rect:nth-of-type('+i+')','#00FFFF',interval),interval*i);
+	}
+		for (var i = 1; i <=n; i++){
+		setTimeout(changeFill('#window6 rect:nth-of-type('+i+')','black',interval),n*interval+interval*i);
+	}
+}
+
+function window4(duration){
+	var n = s.selectAll('#window3 line').length;
+	var interval = duration/n;	
+	for (var i = 1; i < n+1 ; i++){
+		setTimeout(changeStroke('#window3 line:nth-of-type('+i+')','#00FFFF'),i*interval);
+	}
+	for (var i = 1; i < n+1 ; i++){
+		setTimeout(changeStroke('#window3 line:nth-of-type('+i+')','#000000'),n*interval+i*interval);
+	}
+}
+
+function window5(duration){
+	var n = 8;
+	var interval = duration/n;
+	for (var i = 1; i < 9 ; i++){
+		setTimeout(changeFill('#_'+i+'-2','#00FFFF',100),i*interval);
+	}
+	for (var i = 1; i < 9 ; i++){
+		setTimeout(changeFill('#_'+i+'-2','black',100),interval*n+i*interval);
+	}
+}
+
+function window6(){
 	var numberRight = s.selectAll('#window2 .right line').length;
 	for (var i = 1; i < numberRight+1 ; i++){
 		setTimeout(changeStroke('#window2 .right line:nth-of-type('+i+')','#00FFFF'),i*1);
@@ -258,36 +341,40 @@ function window2(){
 	}
 }
 
-function window3(){
-	var number = s.selectAll('#window3 line').length;
-	for (var i = 1; i < number+1 ; i++){
-		setTimeout(changeStroke('#window3 line:nth-of-type('+i+')','#00FFFF'),i*10);
+function window7(duration){
+	var n = 6;
+	interval = duration/n;
+	for (var i = 1; i < n+1 ; i++){
+		setTimeout(changeFill('#vShape_0'+i+' rect','#00FFFF',100),interval*i);
+	} 
+	for (var i = 1; i < n+1 ; i++){
+		setTimeout(changeFill('#vShape_0'+i+' rect','black',100),n*interval + interval*i);
 	}
-	for (var i = 1; i < number+1 ; i++){
-		setTimeout(changeStroke('#window3 line:nth-of-type('+i+')','#000000'),number*10+i*10);
-	}
+
 }
-function window4(){
-	var number = s.selectAll('#window4 line').length;
-	for (var i = 1; i < number+1 ; i++){
-		setTimeout(changeStroke('#window4 line:nth-of-type('+(number+1-i)+')','#00FFFF'),i*10);
-	}
-	for (var i = 1; i < number+1 ; i++){
-		setTimeout(changeStroke('#window4 line:nth-of-type('+(number+1-i)+')','#000000'),number*10+i*10);
-	}
-}
+
+
 
 function CNLit(){
-	changeFill('#CN_tower-2','#00FFFF',100)();
+	var i = 0
+	setInterval(function(){
+		var colors = ['#ff6666','#0066ff','#00cc00','#ff33cc','#ffff00'];
+		s.selectAll('#CN_tower-2').animate({fill:colors[i]},800);
+		i++;
+		if(i>4){i=0};
+	},1000)
 }
 
-function roadLit(){
-	s.selectAll('#roadDataBackground path').animate({d:"M19,1925 940,1167 1000.9,1167 1909,1926"},0,mina.easeout)
-	s.selectAll('#roadDataBackground path').animate({style:'fill:rgba(0,0,0,0)'},0);
-	s.selectAll('#roadDataBackground path').animate({style:'fill:#00FFFF'},1000);
 
+function buildingsColor(duration){
+	s.selectAll('.skyline_Tdot-2, .skyline_Tdot-3, .skyline_Tdot-4, .skyline_Tdot-5, .skyline_Tdot-6, .skyline_Tdot-7, .skyline_Tdot-8').forEach(function(element){
+		element.animate({'fill':'#121E2F'},duration)
+	})
+	s.selectAll('.skyline_Tdot-2, .skyline_Tdot-4').forEach(function(element){
+		element.animate({'fill':'#2D2D2D'},duration)
+	})
+	
 }
-
 
 
 
@@ -299,43 +386,20 @@ function scale(scalex,scaley,x,y){
 	return "matrix("+scalex+", 0, 0,"+scaley+", "+ (x-scalex*x) +"," + (y-scaley*y) +")";
 }
 
-function strokeDanceWireOut(index,duration){
-	setTimeout(draw('#hydroWires .wire' + index + ' path',duration,false,true),0);
-	s.selectAll('#hydroWires .wire' + index + ' text').attr({'display':'none'});
-}
-
-function strokeDanceWireIn(index,duration){
-	setTimeout(draw('#hydroWires .wire' + index + ' path',duration,false,false),0);
-	s.selectAll('#hydroWires .wire' + index + ' text').attr({'display':'block'});
-}
-
-
-function hydroPolesWiresOut(duration){
-	for(var i=1;i<6;i++){
-		setTimeoutFixed(strokeDanceWireOut,i,duration,(i-1)*duration);
-	}
-}
-function hydroPolesWiresIn(duration){
-	for(var i=1;i<6;i++){
-		setTimeoutFixed(strokeDanceWireIn,i,duration,(i-1)*duration);
-	}
-}
-
-
-
 
 
 
 var step1 = 0;
 // road starting time: 0-600 
-// diff : 600
+// diff : 700
+
+setTimeout(fadeFill('#road rect',1,0),shift(0,step1));
+setTimeout(slide('#road rect',0,0,0),shift(0,step1));
 
 setTimeout(fadeFill('#road-3',1,500),shift(100,step1));
 setTimeout(slide('#road-3',485.22,74.02,500),shift(100,step1));
-setTimeout(fadeFill('#road rect',1,500),shift(100,step1));
-setTimeout(slide('#road rect',0,0,500),shift(100,step1));	
-setTimeout(show('#roadDataMask'),shift(600,step1));	
-var step2 = 600 ;
+setTimeout(show('#roadDataMask'),shift(700,step1));	
+var step2 = 700 ;
 var off2 = 0;
 
 //lane paint: 600-900
@@ -343,111 +407,123 @@ var off2 = 0;
 
 setTimeout(fadeFill('#lane_paint_path',1,300),shift(0,step2));
 
-
-
-var step3 = 900 + off2;
-var off3 = 0; 
-// Trees : 900-1800
-// diff: 900
-
-
-
-
-var step4 = 900 + off2 + off3;
+var step3 = 900 + off2 ;
 // Tdott : 900-2200
 //diff : 400
 
-setTimeout(show('#skyline'),shift(0,step4));
+setTimeout(show('#skyline'),shift(0,step3));
 for (var i=1;i<13;i++){
 	if(i<10){
-		setTimeout(slide('#skyline #group0'+i,0,-650,200),shift(i*100,step4));
+		setTimeout(slide('#skyline #group0'+i,0,-650,200),shift(i*100,step3));
 	} else{
-		setTimeout(slide('#skyline #group'+i,0,-650,200),shift(i*100 ,step4));
+		setTimeout(slide('#skyline #group'+i,0,-650,200),shift(i*100 ,step3));
 	}
 }
 for (var i = 1 ; i < 6 ; i++){
-	setTimeout(slide('#skyline #window'+i,0,-650,200),shift(500+i*100,step4));
+	setTimeout(slide('#skyline #window'+i,0,-650,200),shift(500+i*100,step3));
 }
-setTimeout(slide('#skyline #CN_tower-2',0,-650,200),shift(12*100,step4));
+setTimeout(slide('#skyline #CN_tower-2',0,-650,200),shift(12*100,step3));
+setTimeout(slide('#window6,#window7',35,-245.02,200),shift(12*100,step3));
 
-var step5 = 2300 + off2 + off3;
-var off5 = 0;
+var step4 = 2300 + off2 ;
+var off4 = 2000;
 
 // Hydro Poles and their wires : 2200-2500
 //diff : 300
 
-setTimeout(fadeFill('#hydro_poles #left_side polygon,#hydro_poles #right_side polygon',1,300),shift(0,step5));
-setTimeout(fadeStroke('#wires_left path,#wires_right path',1,300),shift(0,step5));
-setTimeout(function(){movingNumbers('#hydroWires text',9,160)},shift(300,step5));
+setTimeout(showHydroPoles,shift(step4,0));
+setTimeout(draw('#wires path',1000,false,false,'black'),shift(step4,0));
 
 
 
-var off6=5000;
-var step6 = 2000 + off2 + off3 + off5;
-//windows and hydropole wires : 2500-3100
+var off5=3000;
+var step5 = 2000 + off2  + off4;
+//sunset : 2500-3100
 // diff: 600
 
-setTimeout(window4,shift(500,step6));
-setTimeout(window3,shift(900,step6));	
-setTimeout(window1,shift(1400,step6));
-setTimeout(window2,shift(1000,step6));
-setTimeout(CNLit,shift(2000,step6));
 
-setTimeout(function(){hydroPolesWiresIn(400)},shift(2600,step6));
-setTimeout(function(){hydroPolesWiresOut(400)},shift(4100,step6));
+setTimeout(changeFill('#theSky','#F55320',1000),shift(0,step5));
+setTimeout(slide('#cloud_pattern',-1200,-1200,4000),shift(-1800,step5)); 
+setTimeout(fadeFill('#cloud_pattern',0.8,1900),shift(-1300,step5));
+setTimeout(changeFill('#theSky','#0E2842',2000),shift(1000,step5));
+setTimeout(slide('#cloud_pattern',900,900,4000),shift(1200,step5)); 
+setTimeout(fadeFill('#cloud_pattern',0.3,1000),shift(300,step5)); 
+setTimeout(fadeFill('#cloud_pattern',0,400),shift(1300,step5));
 
+setTimeoutFixed(buildingsColor,2000,shift(1000,step5));
 
-setTimeout(roadLit,shift(3500,step6));
-
-
-
+// appearance of the stars 
 
 
-var off7 = 0;
-var step7 = 3100 + off2 + off3 + off5 + off6;
+var off6 = 0;
+var step6 = 2500 + off2  + off4 + off5;
+
+setTimeout(function(){s.selectAll('radialGradient stop')[2].animate({stopOpacity:1},1000)},shift(-1000,step6));
+setTimeout(function(){s.selectAll('radialGradient stop')[4].animate({stopOpacity:1},500)},shift(500,step6));
+setTimeout(function(){s.selectAll('radialGradient stop')[6].animate({stopOpacity:1},500)},shift(1300,step6));
+setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:1},500)},1000)},shift(1000,step6));
+setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:0},500)},1000)},shift(1500,step6));
+
+
+
+
+
+
+
+var step7 =  4000 + off5;
+var off7 = 0 ; 
+
+// windows
+setTimeoutFixed(window1,500,shift(500,step7));
+setTimeoutFixed(window2,500,shift(900,step7));
+setTimeoutFixed(window3,500,shift(1000,step7));
+setTimeoutFixed(window4,500,shift(1400,step7));
+setTimeoutFixed(window5,500,shift(1700,step7));
+setTimeout(window6,shift(2000,step7));
+setTimeoutFixed(window7,500,shift(2300,step7));
+setTimeout(CNLit,shift(2000,step7));
+
+// road and poles 
+
+setTimeout(draw('#wires_data_02 path,#wires_left_data-2 path',2000,false,false,undefined,mina.easeout),shift(step7,2500));
+setTimeout(draw('#wires_data_01 path,#wires_left_data-3 path',2000,false,false,undefined,mina.easeout),shift(step7,3500));
+
+setTimeout(draw('#wires_data_02 path,#wires_left_data-2 path',1000,false,true,undefined,mina.easeout),shift(step7,5600));
+setTimeout(draw('#wires_data_01 path,#wires_left_data-3 path',1000,false,true,undefined,mina.easeout),shift(step7,5600));
+
+setTimeout(draw('#roadBranch1 path',600,false,false),shift(3600,step7));
+setTimeout(draw('#roadBranch1 ellipse',0,false,false),shift(4200,step7));
+
+setTimeout(draw('#roadBranch2 path',600,false,false),shift(3600,step7));
+setTimeout(draw('#roadBranch2 ellipse',0,false,false),shift(4200,step7));
+
+setTimeout(changeFill('#roadDataBackground','#0A8888',1000),shift(4100,step7));
+
+
+
+var off8 = 0;
+var step8 = 8100 + off2  + off4 + off5 + off7;
 // change point of view : 3100-3600
 // diff : 500
 
-setTimeout(changeViewBox("300 0 2312.7 1370",500),shift(0,step7));
-setTimeout(slide('#data_object',-150,-600,0),shift(0,step7));
-
-var step8 = 3600 + off2 + off3 + off5 + off6 + off7;
-// sunset : 3600-5300
-// diff : 1700
-
-setTimeout(changeFill('#theSky','#F55320',1000),shift(0,step8));
-setTimeout(slide('#cloud_pattern',-1200,-1200,4000),shift(-1800,step8));  
-setTimeout(fadeFill('#cloud_pattern',0.8,1900),shift(-1300,step8));
-setTimeout(changeFill('#theSky','#0E2842',2000),shift(1000,step8));
-setTimeout(slide('#cloud_pattern',900,900,4000),shift(1200,step8));  
-setTimeout(fadeFill('#cloud_pattern',0.3,1000),shift(300,step8));
-setTimeout(fadeFill('#cloud_pattern',0,400),shift(1300,step8));
+setTimeout(changeViewBox("300 0 2312.7 1370",500),shift(0,step8));
 
 
-var step9 = 5000 + off2 + off3 + off5 + off6 + off7;
-// appearance of stars : 5000-7000
-// diff: 2000
 
-
-setTimeout(function(){s.selectAll('radialGradient stop')[2].animate({stopOpacity:1},1000)},shift(-1000,step9));
-setTimeout(function(){s.selectAll('radialGradient stop')[4].animate({stopOpacity:1},500)},shift(500,step9));
-setTimeout(function(){s.selectAll('radialGradient stop')[6].animate({stopOpacity:1},500)},shift(1300,step9));
-setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:1},500)},1000)},shift(1000,step9));
-setTimeout(function(){setInterval(function(){s.selectAll('radialGradient stop')[0].animate({stopOpacity:0},500)},1000)},shift(1500,step9));
-
-
-var step10 = 7000 + off2 + off3 + off5 + off6 + off7;
+var step9 = 8600 + off2  + off4 + off5 + off8 + off7;
 //appearance of dem constellations : 7000-
 //diff : who cares? it's looking awesome! 
 
-setTimeout(function(){s.selectAll('radialGradient stop')[2].animate({stopOpacity:0.1},500)},shift(0,step10));
-setTimeout(function(){s.selectAll('radialGradient stop')[4].animate({stopOpacity:0.1},500)},shift(0,step10));
-setTimeout(function(){s.selectAll('radialGradient stop')[6].animate({stopOpacity:0.1},500)},shift(0,step10));
+setTimeout(function(){s.selectAll('radialGradient stop')[2].animate({stopOpacity:0.1},500)},shift(0,step9));
+setTimeout(function(){s.selectAll('radialGradient stop')[4].animate({stopOpacity:0.1},500)},shift(0,step9));
+setTimeout(function(){s.selectAll('radialGradient stop')[6].animate({stopOpacity:0.1},500)},shift(0,step9));
 
-setTimeout(function(){s.selectAll('radialGradient stop')[8].animate({stopOpacity:1},500)},shift(500,step10));
-setTimeout(fadeStroke('.constellation1,.constellation2',1,0),shift(-700,step10));
-setTimeout(draw('#constellations path',0,false,true),shift(-700,step10));
-setTimeout(draw('#constellations path',700,false,false),shift(300,step10));
+setTimeout(function(){s.selectAll('radialGradient stop')[8].animate({stopOpacity:1},500)},shift(500,step9));
+setTimeout(fadeStroke('.constellation1,.constellation2',1,0),shift(-1200,step9));
+setTimeout(draw('#constellations path',0,false,true),shift(-1200,step9));
+setTimeout(draw('#constellations path',700,false,false),shift(1200,step9));
+// setTimeout(changeFill('#dataConstellations text','rgba(0,255,255,1)',1000),shift(1000,step9));
+// setTimeout(changeFill('#dataConstellations text','#0E2842',500),shift(2000,step9));
 
 
 
