@@ -1,0 +1,70 @@
+.form{
+	width: 100%;
+	height: auto;
+	background:white;
+}
+.form .mdl-textfield__label{
+	font-size: 23px;
+	color:#14ACB4;
+
+}
+.form .mdl-textfield__input{
+	border-bottom-width:1px;
+	border-bottom-color:#14ACB4;
+	padding-bottom: 10px;
+	color:black;
+}
+.form .mdl-textfield{
+	width:400px;
+}
+
+.form .mdl-textfield__label:after{
+	background-color: #18C3A4 ;
+	padding-top: 1px;
+	margin-bottom: -6px;
+}
+
+.form .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.form .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.form .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+	color:#14ACB4;
+}
+
+
+.form .mdl-button--raised{
+	background-color: #14ACB4;
+	color:white;
+
+}
+
+
+.form .textContainer h3{
+	display: block;
+	margin:auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: #003372;
+}
+.form .textContainer{
+	text-align: center;
+}
+
+.form #qedLogo{
+	display: block;
+	margin: auto;
+	width:20%;
+}
+.form .textField{
+	margin-left: 30px
+
+}
+
+.form .theButton{
+
+	margin-left:30px; 
+	display: block;
+}
+a{
+	color:#001A1A;
+}
