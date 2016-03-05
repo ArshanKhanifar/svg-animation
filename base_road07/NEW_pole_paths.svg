@@ -1,0 +1,127 @@
+<svg id="new_polePaths" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2055.6 1741.12"><defs><style>.polesData-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs><title>NEW_pole_paths</title>
+
+<g class="polesData">
+	<g id="poles_05">
+		<g id="pole_left">
+			<path class="polesData-1" d="M579.88 539.18 L577.01 1298.76"/>
+			<path class="polesData-1" d="M579.89 539.16 L580.33 1298.74"/>
+			<path class="polesData-1" d="M579.89 539.16 L583.64 1298.7"/>
+			<path class="polesData-1" d="M579.94 539.18 L586.96 1298.67"/>
+			<path class="polesData-1" d="M579.94 539.18 L590.27 1298.63"/>
+			<path class="polesData-1" d="M579.94 539.18 L593.59 1298.59"/>
+			<path class="polesData-1" d="M579.89 539.16 L596.9 1298.56"/>
+		</g>
+		<g id="pole_right">
+			<path class="polesData-1" d="M1458.88 556.18 L1449.01 1312.76"/>
+			<path class="polesData-1" d="M1458.89 556.16 L1452.33 1312.74"/>
+			<path class="polesData-1" d="M1458.89 556.16 L1455.64 1312.7"/>
+			<path class="polesData-1" d="M1458.94 556.18 L1458.96 1312.67"/>
+			<path class="polesData-1" d="M1458.94 556.18 L1462.27 1312.63"/>
+			<path class="polesData-1" d="M1458.94 556.18 L1465.59 1312.59"/>
+			<path class="polesData-1" d="M1458.89 556.16 L1468.9 1312.56"/>
+		</g>
+	</g>
+	<g id="poles_06">
+		<g id="pole_left-2">
+			<path class="polesData-1" d="M27.94 0.06 L0.5 1727.77"/>
+			<path class="polesData-1" d="M27.96 0.02 L13.72 1727.73"/>
+			<path class="polesData-1" d="M27.96 0.02 L26.94 1727.64"/>
+			<path class="polesData-1" d="M28.18 0.06 L40.16 1727.57"/>
+			<path class="polesData-1" d="M28.18 0.06 L53.38 1727.46"/>
+			<path class="polesData-1" d="M28.18 0.06 L66.6 1727.38"/>
+			<path class="polesData-1" d="M27.96 0.02 L79.82 1727.3"/>
+		</g>
+		<g id="pole_right-2">
+			<path class="polesData-1" d="M2021.37 11.33 L1965.57 1741.11"/>
+			<path class="polesData-1" d="M2021.39 11.29 L1980.5 1741.07"/>
+			<path class="polesData-1" d="M2021.39 11.29 L1995.42 1740.98"/>
+			<path class="polesData-1" d="M2021.63 11.33 L2010.34 1740.91"/>
+			<path class="polesData-1" d="M2021.63 11.33 L2025.26 1740.81"/>
+			<path class="polesData-1" d="M2021.63 11.33 L2040.18 1740.73"/>
+			<path class="polesData-1" d="M2021.39 11.29 L2055.1 1740.64"/>
+		</g>
+	</g>
+	<g id="poles_04">
+		<g id="pole_left-3">
+			<path class="polesData-1" d="M780.67 670.6 L780.04 1128.39"/>
+			<path class="polesData-1" d="M780.67 670.59 L781.92 1128.38"/>
+			<path class="polesData-1" d="M780.67 670.59 L783.8 1128.36"/>
+			<path class="polesData-1" d="M780.7 670.6 L785.68 1128.34"/>
+			<path class="polesData-1" d="M780.7 670.6 L787.56 1128.32"/>
+			<path class="polesData-1" d="M780.7 670.6 L789.44 1128.3"/>
+			<path class="polesData-1" d="M780.67 670.59 L791.32 1128.27"/>
+		</g>
+		<g id="pole_right-3">
+			<path class="polesData-1" d="M1262.19 683.14 L1256.59 1145.33"/>
+			<path class="polesData-1" d="M1262.19 683.12 L1258.47 1145.32"/>
+			<path class="polesData-1" d="M1262.19 683.12 L1260.35 1145.3"/>
+			<path class="polesData-1" d="M1262.22 683.14 L1262.23 1145.28"/>
+			<path class="polesData-1" d="M1262.22 683.14 L1264.11 1145.25"/>
+			<path class="polesData-1" d="M1262.22 683.14 L1265.99 1145.23"/>
+			<path class="polesData-1" d="M1262.19 683.12 L1267.87 1145.21"/>
+		</g>
+	</g>
+	<g id="poles_03">
+		<g id="pole_left-4">
+			<path class="polesData-1" d="M892.67 751.6 L885.04 1055.39"/>
+			<path class="polesData-1" d="M892.67 751.59 L886.92 1055.38"/>
+			<path class="polesData-1" d="M892.67 751.59 L888.8 1055.36"/>
+			<path class="polesData-1" d="M892.7 751.6 L890.68 1055.34"/>
+			<path class="polesData-1" d="M892.7 751.6 L892.56 1055.32"/>
+			<path class="polesData-1" d="M892.7 751.6 L894.44 1055.3"/>
+			<path class="polesData-1" d="M892.67 751.59 L896.32 1055.27"/>
+		</g>
+		<g id="pole_right-4">
+			<path class="polesData-1" d="M1154.19 761.14 L1146.59 1064.59"/>
+			<path class="polesData-1" d="M1154.19 761.12 L1148.47 1064.58"/>
+			<path class="polesData-1" d="M1154.19 761.12 L1150.35 1064.56"/>
+			<path class="polesData-1" d="M1154.22 761.14 L1152.23 1064.54"/>
+			<path class="polesData-1" d="M1154.22 761.14 L1154.11 1064.51"/>
+			<path class="polesData-1" d="M1154.22 761.14 L1155.99 1064.49"/>
+			<path class="polesData-1" d="M1154.19 761.12 L1157.87 1064.47"/>
+		</g>
+	</g>
+	<g id="poles_02">
+		<g id="pole_left-5">
+			<path class="polesData-1" d="M890.72,710.48" transform="translate(48.33 303.91)"/>
+			<path class="polesData-1" d="M895.34,484.68" transform="translate(48.33 303.91)"/>
+			<path class="polesData-1" d="M943.67 788.59 L940.92 1014.38"/>
+			<path class="polesData-1" d="M943.67 788.59 L942.8 1014.36"/>
+			<path class="polesData-1" d="M943.7 788.6 L944.68 1014.34"/>
+			<path class="polesData-1" d="M943.7 788.6 L946.56 1014.32"/>
+			<path class="polesData-1" d="M943.7 788.6 L948.44 1014.3"/>
+			<path class="polesData-1" d="M943.67 788.59 L950.32 1014.27"/>
+		</g>
+		<g id="pole_right-5">
+			<path class="polesData-1" d="M1092.19 791.14 L1088.59 1017.59"/>
+			<path class="polesData-1" d="M1092.19 791.12 L1090.47 1017.58"/>
+			<path class="polesData-1" d="M1092.19 791.12 L1092.35 1017.56"/>
+			<path class="polesData-1" d="M1092.22 791.14 L1094.23 1017.54"/>
+			<path class="polesData-1" d="M1092.22 791.14 L1096.11 1017.51"/>
+			<path class="polesData-1" d="M1092.22 791.14 L1097.99 1017.49"/>
+		</g>
+	</g>
+	<g id="poles_01">
+		<g id="pole_left-6">
+			<path class="polesData-1" d="M975.67 819.6 L971.04 984.04"/>
+			<path class="polesData-1" d="M975.67 819.59 L972.92 984.03"/>
+			<path class="polesData-1" d="M975.67 819.59 L974.8 984.01"/>
+			<path class="polesData-1" d="M975.7 819.6 L976.68 983.99"/>
+			<path class="polesData-1" d="M975.7 819.6 L978.56 983.96"/>
+			<path class="polesData-1" d="M975.7 819.6 L980.44 983.94"/>
+			<path class="polesData-1" d="M934,680" transform="translate(48.33 303.91)"/>
+			<path class="polesData-1" d="M927.35,515.67" transform="translate(48.33 303.91)"/>
+		</g>
+		<g id="pole_right-6">
+			<path class="polesData-1" d="M1012.27,682.68" transform="translate(48.33 303.91)"/>
+			<path class="polesData-1" d="M1018.86,517.22" transform="translate(48.33 303.91)"/>
+			<path class="polesData-1" d="M1067.19 821.12 L1062.47 986.58"/>
+			<path class="polesData-1" d="M1067.19 821.12 L1064.35 986.56"/>
+			<path class="polesData-1" d="M1067.22 821.14 L1066.23 986.54"/>
+			<path class="polesData-1" d="M1067.22 821.14 L1068.11 986.51"/>
+			<path class="polesData-1" d="M1067.22 821.14 L1069.99 986.49"/>
+			<path class="polesData-1" d="M1067.19 821.12 L1071.87 986.47"/>
+		</g>
+	</g>
+</g>
+</svg>

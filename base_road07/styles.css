@@ -118,6 +118,57 @@
 .polesWires6{fill:gray;}
 .polesWires7{fill:none;stroke-miterlimit:10;stroke-width:2px;}
 
+.circuits-1,
+.circuits-11,
+.circuits-12,
+.circuits-2,
+.circuits-3,
+.circuits-4,
+.circuits-5,
+.circuits-9{fill:none;}
+
+.circuits-1,
+.circuits-11,
+.circuits-12,
+.circuits-2,
+.circuits-3,
+.circuits-4,
+.circuits-5,
+.circuits-8,
+.circuits-9{stroke-miterlimit:10;}
+/*.circuits-1{stroke:#f15a24;}
+.circuits-2{stroke:red;}
+.circuits-3{stroke:#f0f;}
+.circuits-4{stroke:#ff0;}
+.circuits-5{stroke:lime;}
+.circuits-9{stroke:#29abe2;}
+.circuits-11{stroke:#93278f;}
+.circuits-12{stroke:blue;}
+.circuits-13{opacity:0.61;}*/
+.circuits-8{
+	stroke-width:3px;
+	transform-origin: 50% 50%;
+
+}
+
+
+.polesData-1{fill:none;stroke-miterlimit:10;}
+
+.constellationData-1{
+	fill:#0b5f63;
+	stroke-width:3px;
+}
+.logoStyles-1{fill:none;stroke:#020e26;stroke-linejoin:round;}
+.logoStyles-2{fill:#003372;}
+.logoStyles-3{fill:#09e9e1;}
+.logoStyles-4{fill:#079bd9;}
+.logoStyles-5{fill:#020e26;}
+.logoStyles-6{fill:#046ff2;}
+
+
+#theLogo{
+	display: none;
+}
 
 
 svg { 

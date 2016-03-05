@@ -1,0 +1,111 @@
+<svg id="new_polePaths" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 892.89 773.62"><defs>
+	<style>
+	.poleData-1{fill:none;stroke:#000;stroke-miterlimit:10;}
+	</style>
+</defs>
+<title>new_polePaths</title>
+		<g id="poleData">
+			<g id="poles_05">
+				<g id="pole_left">
+					<line id="_01" class="poleData-1" x1="3.37" y1="0.03" x2="0.5" y2="759.61"/>
+					<line id="_02" class="poleData-1" x1="3.37" y1="0.01" x2="3.82" y2="759.6"/>
+					<line id="_03" class="poleData-1" x1="3.37" y1="0.01" x2="7.13" y2="759.56"/>
+					<line id="_04" class="poleData-1" x1="3.43" y1="0.03" x2="10.44" y2="759.53"/>
+					<line id="_05" class="poleData-1" x1="3.43" y1="0.03" x2="13.76" y2="759.48"/>
+					<line id="_06" class="poleData-1" x1="3.43" y1="0.03" x2="17.07" y2="759.45"/>
+					<line id="_07" class="poleData-1" x1="3.37" y1="0.01" x2="20.39" y2="759.41"/>
+				</g>
+				<g id="pole_right">
+					<line id="_01-2" class="poleData-1" x1="882.37" y1="17.03" x2="872.5" y2="773.61"/>
+					<line id="_02-2" class="poleData-1" x1="882.37" y1="17.01" x2="875.82" y2="773.6"/>
+					<line id="_03-2" class="poleData-1" x1="882.37" y1="17.01" x2="879.13" y2="773.56"/>
+					<line id="_04-2" class="poleData-1" x1="882.43" y1="17.03" x2="882.44" y2="773.53"/>
+					<line id="_05-2" class="poleData-1" x1="882.43" y1="17.03" x2="885.76" y2="773.48"/>
+					<line id="_06-2" class="poleData-1" x1="882.43" y1="17.03" x2="889.07" y2="773.45"/>
+					<line id="_07-2" class="poleData-1" x1="882.37" y1="17.01" x2="892.39" y2="773.41"/>
+				</g>
+			</g>
+			<g id="poles_04">
+				<g id="pole_left-2">
+					<line id="_01-3" class="poleData-1" x1="204.16" y1="131.45" x2="203.53" y2="589.24"/>
+					<line id="_02-3" class="poleData-1" x1="204.16" y1="131.44" x2="205.41" y2="589.23"/>
+					<line id="_03-3" class="poleData-1" x1="204.16" y1="131.44" x2="207.29" y2="589.21"/>
+					<line id="_04-3" class="poleData-1" x1="204.19" y1="131.45" x2="209.17" y2="589.2"/>
+					<line id="_05-3" class="poleData-1" x1="204.19" y1="131.45" x2="211.05" y2="589.17"/>
+					<line id="_06-3" class="poleData-1" x1="204.19" y1="131.45" x2="212.93" y2="589.15"/>
+					<line id="_07-3" class="poleData-1" x1="204.16" y1="131.44" x2="214.81" y2="589.13"/>
+				</g>
+				<g id="pole_right-2">
+					<line id="_01-4" class="poleData-1" x1="685.68" y1="143.99" x2="680.08" y2="606.18"/>
+					<line id="_02-4" class="poleData-1" x1="685.68" y1="143.98" x2="681.96" y2="606.17"/>
+					<line id="_03-4" class="poleData-1" x1="685.68" y1="143.98" x2="683.84" y2="606.15"/>
+					<line id="_04-4" class="poleData-1" x1="685.71" y1="143.99" x2="685.72" y2="606.13"/>
+					<line id="_05-4" class="poleData-1" x1="685.71" y1="143.99" x2="687.6" y2="606.1"/>
+					<line id="_06-4" class="poleData-1" x1="685.71" y1="143.99" x2="689.48" y2="606.08"/>
+					<line id="_07-4" class="poleData-1" x1="685.68" y1="143.98" x2="691.36" y2="606.06"/>
+				</g>
+			</g>
+			<g id="poles_03">
+				<g id="pole_left-3">
+					<line id="_01-5" class="poleData-1" x1="316.16" y1="212.45" x2="308.53" y2="516.24"/>
+					<line id="_02-5" class="poleData-1" x1="316.16" y1="212.44" x2="310.41" y2="516.23"/>
+					<line id="_03-5" class="poleData-1" x1="316.16" y1="212.44" x2="312.29" y2="516.21"/>
+					<line id="_04-5" class="poleData-1" x1="316.19" y1="212.45" x2="314.17" y2="516.2"/>
+					<line id="_05-5" class="poleData-1" x1="316.19" y1="212.45" x2="316.05" y2="516.17"/>
+					<line id="_06-5" class="poleData-1" x1="316.19" y1="212.45" x2="317.93" y2="516.15"/>
+					<line id="_07-5" class="poleData-1" x1="316.16" y1="212.44" x2="319.81" y2="516.13"/>
+					</g>
+				<g id="pole_right-3">
+					<line id="_01-6" class="poleData-1" x1="577.68" y1="221.99" x2="570.08" y2="525.45"/>
+					<line id="_02-6" class="poleData-1" x1="577.68" y1="221.98" x2="571.96" y2="525.43"/>
+					<line id="_03-6" class="poleData-1" x1="577.68" y1="221.98" x2="573.84" y2="525.41"/>
+					<line id="_04-6" class="poleData-1" x1="577.71" y1="221.99" x2="575.72" y2="525.39"/>
+					<line id="_05-6" class="poleData-1" x1="577.71" y1="221.99" x2="577.6" y2="525.37"/>
+					<line id="_06-6" class="poleData-1" x1="577.71" y1="221.99" x2="579.48" y2="525.35"/>
+					<line id="_07-6" class="poleData-1" x1="577.68" y1="221.98" x2="581.36" y2="525.32"/>
+				</g>
+			</g>
+			<g id="poles_02">
+				<g id="pole_left-4">
+					<path id="_01-7" class="poleData-1" d="M890.72,710.48" transform="translate(-528.19 -235.23)"/>
+					<path id="_01-8" class="poleData-1" d="M895.34,484.68" transform="translate(-528.19 -235.23)"/>
+					<line id="_02-7" class="poleData-1" x1="367.16" y1="249.44" x2="364.41" y2="475.23"/>
+					<line id="_03-7" class="poleData-1" x1="367.16" y1="249.44" x2="366.29" y2="475.21"/>
+					<line id="_04-7" class="poleData-1" x1="367.19" y1="249.45" x2="368.17" y2="475.2"/>
+					<line id="_05-7" class="poleData-1" x1="367.19" y1="249.45" x2="370.05" y2="475.17"/>
+					<line id="_06-7" class="poleData-1" x1="367.19" y1="249.45" x2="371.93" y2="475.15"/>
+					<line id="_07-7" class="poleData-1" x1="367.16" y1="249.44" x2="373.81" y2="475.13"/>
+				</g>
+				<g id="pole_right-4">
+					<line id="_01-9" class="poleData-1" x1="515.68" y1="251.99" x2="512.08" y2="478.45"/>
+					<line id="_02-8" class="poleData-1" x1="515.68" y1="251.98" x2="513.96" y2="478.43"/>
+					<line id="_03-8" class="poleData-1" x1="515.68" y1="251.98" x2="515.84" y2="478.41"/>
+					<line id="_04-8" class="poleData-1" x1="515.71" y1="251.99" x2="517.72" y2="478.39"/>
+					<line id="_05-8" class="poleData-1" x1="515.71" y1="251.99" x2="519.6" y2="478.37"/>
+					<line id="_06-8" class="poleData-1" x1="515.71" y1="251.99" x2="521.48" y2="478.35"/>
+				</g>
+			</g>
+			<g id="poles_01">
+				<g id="pole_left-5">
+					<line id="_01-10" class="poleData-1" x1="399.16" y1="280.45" x2="394.53" y2="444.89"/>
+					<line id="_02-9" class="poleData-1" x1="399.16" y1="280.44" x2="396.41" y2="444.88"/>
+					<line id="_03-9" class="poleData-1" x1="399.16" y1="280.44" x2="398.29" y2="444.86"/>
+					<line id="_04-9" class="poleData-1" x1="399.19" y1="280.45" x2="400.17" y2="444.84"/>
+					<line id="_05-9" class="poleData-1" x1="399.19" y1="280.45" x2="402.05" y2="444.82"/>
+					<line id="_06-9" class="poleData-1" x1="399.19" y1="280.45" x2="403.93" y2="444.8"/>
+					<path id="_07-8" class="poleData-1" d="M934,680" transform="translate(-528.19 -235.23)"/>
+					<path id="_07-9" class="poleData-1" d="M927.35,515.67" transform="translate(-528.19 -235.23)"/>
+				</g>
+				<g id="pole_right-5">
+					<path id="_01-11" class="poleData-1" d="M1012.27,682.68" transform="translate(-528.19 -235.23)"/>
+					<path id="_01-12" class="poleData-1" d="M1018.86,517.22" transform="translate(-528.19 -235.23)"/>
+					<line id="_02-10" class="poleData-1" x1="490.68" y1="281.98" x2="485.96" y2="447.43"/>
+					<line id="_03-10" class="poleData-1" x1="490.68" y1="281.98" x2="487.84" y2="447.41"/>
+					<line id="_04-10" class="poleData-1" x1="490.71" y1="281.99" x2="489.72" y2="447.39"/>
+					<line id="_05-10" class="poleData-1" x1="490.71" y1="281.99" x2="491.6" y2="447.37"/>
+					<line id="_06-10" class="poleData-1" x1="490.71" y1="281.99" x2="493.48" y2="447.35"/>
+					<line id="_07-10" class="poleData-1" x1="490.68" y1="281.98" x2="495.36" y2="447.32"/>
+				</g>
+			</g>
+		</g>
+</svg>
