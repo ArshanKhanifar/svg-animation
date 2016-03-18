@@ -1,0 +1,18 @@
+<svg id="newRoads" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8649.83 806.31"><defs>
+	<style>.newRoads-1{fill:#999;}.newRoads-2{fill:#fff;}.newRoads-3{fill:#666;}</style>
+</defs><title>new_roads</title>
+<g id="newRoads">
+	<g id="newRoad_left">
+		<polygon class="newRoads-1" points="4316.31 0 4316.2 0 0 798.36 3129.25 798.36 4316.31 0"/><path id="lane_paint_path" data-name="lane paint path" class="newRoads-2" d="M-1390.14,1685H-1440l915.58-302h31.65ZM13.42,1213H-8l429.82-142h13Zm527.7-178H530.31l133.76-44h8.15Zm174.65-59h-7.26l66.63-21h6Zm88.07-29H798.4l39.71-13h4.68Zm56.29-19h-4.37l23.64-8h3.86ZM892,917h-3.65l19.51-6h3.28Zm28-9h-3.13l14.88-5h2.86Zm20.5-7h-2.74l9-3h2.53Zm14.67-5h-2.43l6.1-2h2.27Zm8.89-3h-2.19l9-3h2.05Z" transform="translate(3317.05 -882.69)"/>
+	</g>
+	<g id="newRoad_right">
+		<polygon class="newRoads-1" points="4333.53 3.71 4333.63 3.71 8649.83 802.07 5520.59 802.07 4333.53 3.71"/><path id="lane_paint_path-2" data-name="lane paint path" class="newRoads-2" d="M2508.52,1387h31.65l915.58,302h-49.86Zm-927.59-312h13l429.82,142h-21.4Zm-237.41-80h8.15l133.76,44h-10.81Zm-108.87-36h6l66.63,21H1300Zm-61.7-21h4.68l39.71,13h-5.45Zm-40.47-14h3.86l23.64,8h-4.37Zm-27.89-9h3.28l19.51,6h-3.65Zm-23.45-8H1084l14.88,5h-3.13Zm-14.68-5H1069l9,3h-2.74Zm-11.81-4h2.27l6.1,2h-2.43Zm-11.77-4h2.05l9,3h-2.19Z" transform="translate(3317.05 -882.69)"/>
+	</g>
+	<g id="secondRoad_left">
+		<polygon class="newRoads-3" points="4317.04 0 4316.93 0 1646.42 141.16 2471.46 274.94 4317.04 0"/><path id="lane_paint_path-3" data-name="lane paint path" class="newRoads-2" d="M-1242.52,1083h-12.58l296.89-27h11.1ZM-649,1030h-9.64l414.73-38h7.62Zm561.4-50h-6.89l223.41-20h5.8Zm305.77-29h-5.37l144.66-12h4.69Zm197.26-16h-4.39l96.68-10h3.92Zm144.18-14H555.9l66.35-5h3.38ZM649,913h-3.22l59.37-5h3Zm84.58-8H730.7l47.37-4h2.65Zm60.57-5h-2.55l31.14-3h2.38Zm49.9-5h-2.31l19.47-2h2.17Zm29.12-3H871l33.34-2h2Z" transform="translate(3317.05 -882.69)"/>
+	</g>
+	<g id="secondRoad_right">
+		<polygon class="newRoads-3" points="4318.84 0.24 4318.94 0.24 6989.46 141.4 6164.42 275.19 4318.84 0.24"/><path id="lane_paint_path-4" data-name="lane paint path" class="newRoads-2" d="M2948.89,1056H2960l296.89,27H3244.3Zm-710.84-64h7.62l414.73,38h-9.64Zm-371-32h5.8l223.41,20h-6.89Zm-227.44-21h4.69L1789,951h-5.37Zm-149.48-14H1494l96.68,10h-4.39Zm-114-9h3.38l66.35,5h-3.73Zm-82.46-8h3l59.37,5h-3.22Zm-72.63-7h2.65l47.37,4h-2.85Zm-44.38-4h2.38l31.14,3h-2.55Zm-38.26-4h2.17l19.47,2h-2.31Zm-43-3h2l33.34,2h-2.1Z" transform="translate(3317.05 -882.69)"/>
+	</g>
+</g>
+</svg>

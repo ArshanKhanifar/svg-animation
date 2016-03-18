@@ -1,3 +1,14 @@
+#sky{
+	display: none;
+}
+body{
+	background: #29abe2;
+}
+
+.newRoads-1{fill:#999;}
+.newRoads-2{fill:#fff;}
+.newRoads-3{fill:#666;}
+
 .cls-11{fill:url(#radial-gradient1);}
 .cls-12{fill:url(#radial-gradient2);}
 .cls-13{fill:url(#radial-gradient3);}

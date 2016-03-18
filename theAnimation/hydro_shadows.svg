@@ -1,0 +1,18 @@
+<svg id="shadows_phone_poles" data-name="shadows_phone poles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1897.82 771.15">
+	<defs>
+		<style>.hydroShadows{fill:#333;}</style>
+	</defs>
+	<title>hydro_shadows</title>
+	<g id="hydroShadows">
+		<polygon class="hydroShadows" points="1894.21 771.15 1372.66 331.01 1406.88 329.92 1897.82 639.08 1894.21 771.15"/>
+		<polygon class="hydroShadows" points="1367.63 321.77 1176.59 161.17 1201.71 161.17 1471.21 315.11 1367.63 321.77"/>
+		<polyline class="hydroShadows" points="1176.12 162.15 1227.03 162.08 1100.13 83.2 1084.97 83.5 1179.08 163.44"/>
+		<polyline class="hydroShadows" points="1084.24 83.2 1028.75 36.05 1040.35 36.21 1121.08 83.37 1084.24 83.2"/>
+		<polyline class="hydroShadows" points="1028.75 36.05 1050.98 36.19 1000.09 3 991 3.21 1028.18 35.09"/>
+		<polygon class="hydroShadows" points="3.61 760.15 525.17 320.01 490.94 318.92 0 628.08 3.61 760.15"/>
+		<polygon class="hydroShadows" points="536.29 310.52 727.24 149.17 702.11 149.17 442.14 303.94 536.29 310.52"/>
+		<polyline class="hydroShadows" points="730.7 147.15 679.79 147.08 806.69 68.2 821.85 68.5 727.75 148.44"/>
+		<polyline class="hydroShadows" points="817.58 73.2 873.07 26.05 861.47 26.21 785.9 72.38 817.58 73.2"/>
+		<polyline class="hydroShadows" points="869.07 33.05 844.4 33.12 897.73 0 906.82 0.21 869.64 32.09"/>
+	</g>
+</svg>

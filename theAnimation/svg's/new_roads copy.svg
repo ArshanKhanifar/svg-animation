@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="newRoads" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="708 -280.4 2012.8 1400.3" style="enable-background:new 708 -280.4 2012.8 1400.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{stroke:#00FFFF;stroke-dasharray:279.508;}
+	.st1{stroke:#00FFFF;stroke-dasharray:279.498;}
+	.st2{stroke:#00FFFF;stroke-dasharray:279.505;}
+	.st3{stroke:#00FFFF;stroke-dasharray:279.514;}
+	.st4{stroke:#00FFFF;stroke-dasharray:279.494;}
+	.st5{stroke:#00FFFF;stroke-dasharray:279.525;}
+	.st6{stroke:#00FFFF;stroke-dasharray:197.715;}
+	.st7{stroke:#00FFFF;stroke-dasharray:279.497;}
+	.st8{stroke:#00FFFF;stroke-dasharray:279.512;}
+	.st9{stroke:#00FFFF;stroke-dasharray:279.495;}
+	.st10{stroke:#00FFFF;stroke-dasharray:279.515;}
+	.st11{stroke:#00FFFF;stroke-dasharray:279.504;}
+	.st12{stroke:#00FFFF;stroke-dasharray:279.511;}
+	.st13{stroke:#00FFFF;stroke-dasharray:279.506;}
+	.st14{stroke:#00FFFF;stroke-dasharray:279.5;}
+	.st15{fill:#0B5F63;stroke:#00FFFF;stroke-dasharray:279.511;}
+	.st16{fill:#0B5F63;stroke:#00FFFF;stroke-dasharray:279.494;}
+</style>
+<g id="dataConstellations" transform="matrix(1,0,0,1,1103,107)">
+	<path class="st0" d="M531.9,59.5l-0.1-115.8l57.9,57.9L531.9,59.5"/>
+	<path class="st1" d="M753.2-32l-81.8-82l0,81.9L753.2-32"/>
+	<path class="st2" d="M753.1-31.8l-81.7,82.1l-0.1-81.9L753.1-31.8"/>
+	<path class="st3" d="M590.2-113.5L671.3-31l0.6-81.9L590.2-113.5"/>
+	<path class="st3" d="M671.9-31.9l-81.6,82.2l81.9-0.4L671.9-31.9"/>
+	<path class="st4" d="M706.2,117.3l-115.8,0l58,57.9L706.2,117.3"/>
+	<path class="st0" d="M589.6,117.9l0.1-115.8L531.8,60L589.6,117.9"/>
+	<path class="st5" d="M589.6-114.4l0.1,115.8l-57.9-57.9L589.6-114.4"/>
+	<path class="st6" d="M911.7-214.6l0.5,115.8l57.6-58.2l0,0"/>
+	<path class="st7" d="M912.3-98l0.5,115.8l57.6-58.2L912.3-98"/>
+	<path class="st8" d="M912.6-18.7l-82-81.7l81.9-0.1L912.6-18.7"/>
+	<path class="st9" d="M832,133.6l80.9-82.8l0.9,81.9L832,133.6"/>
+	<path class="st10" d="M829.9-101l0.7,115.8l-58.2-57.6L829.9-101"/>
+	<path class="st11" d="M773.5-41.1L774,74.7l57.6-58.2L773.5-41.1"/>
+	<path class="st1" d="M831.5,16.8l0.7,115.8L774,74.9L831.5,16.8"/>
+	<path class="st10" d="M969.2-273.2l0.7,115.8l-58.2-57.6L969.2-273.2"/>
+	<path class="st7" d="M970.4-40.9l-0.5-115.8l-57.6,58.2L970.4-40.9"/>
+	<path class="st7" d="M912.9,18.5l0.5,115.8L971,76L912.9,18.5"/>
+	<path class="st11" d="M971,75.6l-0.5-115.8l-57.6,58.2L971,75.6"/>
+	<path class="st12" d="M410,107.2L409.9-8.5l57.9,57.9L410,107.2"/>
+	<path class="st13" d="M409.8,27.9L328.2,110l81.9-0.3L409.8,27.9"/>
+	<path class="st14" d="M328.4-123.9l81.3,82.4l0.5-81.9L328.4-123.9"/>
+	<path class="st0" d="M327.6,110.7l0.1-115.8l-57.9,57.9L327.6,110.7"/>
+</g>
+<g id="dataObject1_elements">
+	<g id="data_object01">
+		<g>
+			<path class="st15" d="M1372.8,157.4l-0.1-115.8l57.9,57.9L1372.8,157.4"/>
+			<path class="st16" d="M1430.6,99.2l0.1-115.8l-57.9,57.9L1430.6,99.2"/>
+			<path class="st16" d="M1512,97.1l-0.1-115.8l57.9,57.9L1512,97.1"/>
+			<path class="st16" d="M1569.7,39.7l0.1,115.8l-57.9-57.9L1569.7,39.7"/>
+		</g>
+	</g>
+</g>
+<g id="dataObject2_elements">
+	<path id="dataObject_appearsFirst" class="st15" d="M1512,330.2l-0.1-115.8l57.9,57.9L1512,330.2"/>
+	<path id="dataObject_appearsSecond" class="st15" d="M1686.3,387.9l-115.8,0l58,57.9L1686.3,387.9"/>
+	<path id="dataObject_appearsThird" class="st15" d="M1569.7,388.5l0.1-115.8l-57.9,57.9L1569.7,388.5"/>
+</g>
+<g id="dataObject3_elements_1_">
+	<path id="dataObject3_elements" class="st15" d="M1569.7,156.2l0.1,115.8l-57.9-57.9L1569.7,156.2"/>
+</g>
+</svg>
